@@ -1,0 +1,2 @@
+# UefiFirmwareResources
+Firmware related resources
