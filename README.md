@@ -130,34 +130,39 @@ Firmware and OS architecture sites
 
 |Specification|URL|Notes|
 |:-----------------|:-------------------|:-----------------|
+|ACPI|-[v6.4 PDF](https://uefi.org/sites/default/files/resources/ACPI_Spec_6_4_Jan22.pdf)<br>-[v6.4 HTML](https://uefi.org/specifications/ACPI/6.4/)|acpi spec, acpi tables|
+|Bluetooth||core spec, profiles|
+|EDK2 Specifications|https://github.com/tianocore-docs/Docs|
+|UEFI|-[UEFI Specification v2.9](https://uefi.org/sites/default/files/resources/UEFI_Spec_2_9_2021_03_18.pdf)<br>-[UEFI Shell Specification v2.2](http://www.uefi.org/sites/default/files/resources/UEFI_Shell_2_2.pdf)<br>-[UEFI PI v1.7 Errata A](https://uefi.org/sites/default/files/resources/PI_Spec_1_7_A_final_May1.pdf)<br>|uefi spec, PI spec, UEFI shell, UEFI SCT|
+
 
 ### File System and Disc Format
 
-|Specification|URL|Notes|
+|File System Type|Specification URL|Notes|
 |:-----------------|:-------------------|:-----------------|
 |Microsoft FAT32|[1.03](https://download.microsoft.com/download/1/6/1/161ba512-40e2-4cc9-843a-923143f3456c/fatgen103.doc)|
-|Microsoft exFAT|[Latest web version](https://docs.microsoft.com/en-us/windows/win32/fileio/exfat-specification)<br>[Latest pdf](https://docs.microsoft.com/en-us/windows/win32/opbuildpdf/fileio/toc.pdf?branch=live)|
+|Microsoft exFAT|-[Latest web version](https://docs.microsoft.com/en-us/windows/win32/fileio/exfat-specification)<br>-[Latest pdf](https://docs.microsoft.com/en-us/windows/win32/opbuildpdf/fileio/toc.pdf?branch=live)|
 |NTFS|[wiki](https://en.wikipedia.org/wiki/NTFS)|
-|El Torito Boot Specification|[1.0](https://pdos.csail.mit.edu/6.828/2014/readings/boot-cdrom.pdf)|
-|[UDF Specification](http://www.osta.org/specs/)|[2.60](http://www.osta.org/specs/pdf/udf260.pdf)|
-|ISO 9660|[1998(en)](https://www.iso.org/obp/ui/#iso:std:iso:9660:ed-1:v1:en)<br>[1988/Amd.1:2013(en)](https://www.iso.org/obp/ui/#iso:std:iso:9660:ed-1:v1:amd:1:v1:en)|
-|Joliet Filesystem Specification|[Extensions for Unicode Version 1](http://pismotec.com/cfs/jolspec.html)|
+|El Torito Boot|[1.0](https://pdos.csail.mit.edu/6.828/2014/readings/boot-cdrom.pdf)|
+|UDF|[2.60](http://www.osta.org/specs/pdf/udf260.pdf)|
+|ISO 9660|-[1998(en)](https://www.iso.org/obp/ui/#iso:std:iso:9660:ed-1:v1:en)<br>-[1988/Amd.1:2013(en)](https://www.iso.org/obp/ui/#iso:std:iso:9660:ed-1:v1:amd:1:v1:en)|
+|Joliet Filesystem|[Extensions for Unicode Version 1](http://pismotec.com/cfs/jolspec.html)|
 |ext4|[web](https://ext4.wiki.kernel.org/index.php/Ext4_Disk_Layout)|
 |HFS Plus|[web](https://developer.apple.com/library/archive/technotes/tn/tn1150.html#//apple_ref/doc/uid/DTS10002989)|
 
 ### File Format
 
-|Specification|URL|Notes|
-|:-----------------|:-------------------|:-----------------|
-|ELF|[1.2](https://refspecs.linuxfoundation.org/elf/elf.pdf)<br>[1.1](https://refspecs.linuxfoundation.org/elf/TIS1.1.pdf)|
-|MP3||
-|MP4||
-|[Microsoft PE/COFF Specification](https://docs.microsoft.com/en-us/windows/win32/debug/pe-format)|[8.0](http://www.microsoft.com/whdc/system/platform/firmware/PECOFF.mspx)<br>[Latest web](https://docs.microsoft.com/en-us/windows/win32/debug/pe-format)<br>[Latest pdf](https://docs.microsoft.com/en-us/windows/win32/opbuildpdf/debug/toc.pdf?branch=live)|
-|WAV||
+|Specification|Extension|URL|Notes|
+|:-----------------|:-----|:-------------------|:-----------------|
+|Executable and Linking Format (ELF)||-[v1.2](https://refspecs.linuxfoundation.org/elf/elf.pdf)<br>-[v1.1](https://refspecs.linuxfoundation.org/elf/TIS1.1.pdf)|
+|MPEG3|.mp3||
+|MPEG4|.mp4||
+|Microsoft PE/COFF Specification|.dll<br>.exe<br>.sys<br>.obj<br>.efi|-[8.0](http://www.microsoft.com/whdc/system/platform/firmware/PECOFF.mspx)<br>-[Latest web](https://docs.microsoft.com/en-us/windows/win32/debug/pe-format)<br>-[Latest pdf](https://docs.microsoft.com/en-us/windows/win32/opbuildpdf/debug/toc.pdf?branch=live)|
+|WAVE Audio Format|.wav|[click](https://docs.fileformat.com/audio/wav/)|
 
 ## Tools
 
 |Tool|Version|OS|Notes|
 |:-----------------|:-------------------|:-----------------|:-----------------|
-|[ PL](http://ubios.blogspot.com/)|1.5.0.10|DOS|PL Provides:<br>1.	PCI Bus/Device Information(PCI register read/write)<br>2.	USB host controller information<br>3.	System memory read/write<br>4.	I/O address read/write<br>5.	Index IO read/write<br>6.	HD-Audio Controller Information (Include immediate VERB command, save codec cmd sequence as c file)<br>7.	AC97 Controller<br> 8.	ACPI Table<br>9.	Disk read/write<br>10.	Int15h E820 maps advanced browsing<br>11.	Multi Processor(MP) Table dump.<br>12. Advanced Browsing experience. <br>&nbsp;&nbsp;&nbsp;Goto alternative view (Alt+G) Example: PCI<>IO or Memory, ACPI<>Memory<br>&nbsp;&nbsp;&nbsp;Go back previous view(Alt+B)<br>13. Save View data to file (Save as TXT, HTML, Binary)<br>(http://ubios.blogspot.com)|
-|[ PLC](http://ubios.blogspot.com/)|1.0.1.2|Windows|1. UEFI/BIOS Smart Debug Information<br>* -Error/Checkpoint/Guid Message clarification and color highlight<br>* -User defined message filter and color highight (Support two uder defined sets)<br>* -Quick message search and locate debug message<br>* -Save debug message on the fly (save to file)<br>* -Load debug message and analysis<br>2. Addon Debug Message Functions<br>* - Calculate the timeing between two marked debug messages, can be used to measure and tune the BIOS POST time.<br>* (Click the 'Time' button on tool bar to open the 'Time' Windows, then use 'SPACE' key to mark the message.<br>* - GUID and Meaniningful name translation* Lookup the BIOS source code at startup. Once the GUID is displayed in the dbeug message, convert the GUID to the driver/protocol name of the GUID.<br>* (Need to set the 'GUID File Path' in the "Config" window to point to the UEFI/BIOS source code)<br>* (Click the 'Decode Messages' button in the tool bar to enable/disable the trsnslation.<br>2. USB<br>* - USB topology map<br>* - Save the USB topology map to TXT or ASL file<br>* - Compare the USB topology map. Can be utilize to check if any USB device loss cross system boots. (support command line mode)<br>* - ACPI ASL _UPC and _PLD generation for USB devices.<br>3. Disk<br>* - Need to launch the application in Administrator right.<br>* - View GPT/MBR information<br>* - Check disk boot capability.<br>4. Console Redirection<br>* - Click 'Terminal' button in the tool bar to open the console window.<br>* - Support ANSI/VT100 (Similar to Putty/Teraterm)<br>* - Capture screen to file.<br>5. SUT Control (Control M/B)<br>* - Need specific hardware<br>* - Support Web http/https request or windows exe/bat to control the M/B* - Support 'Level' or Pulse control<br>* - Capable to control the M/B AC power or Power Button<br>6. UEFI Variable READ<br>* - Need Administrator Right<br>* - Read UEFI Variable in Windows(http://ubios.blogspot.com)|
+|[ PL](http://ubios.blogspot.com/)|1.5.0.10|DOS|PL Provides:<br>**1.	PCI Bus/Device Information(PCI register read/write)<br>** **2.	USB host controller information<br>** **3.	System memory read/write<br>** **4.	I/O address read/write<br>** **5.	Index IO read/write<br>** **6.	HD-Audio Controller Information (Include immediate VERB command, save codec cmd sequence as c file)<br>** **7.	AC97 Controller<br>** **8.	ACPI Table<br>** **9.	Disk read/write<br>** **10.	Int15h E820 maps advanced browsing<br>** **11.	Multi Processor(MP) Table dump.<br>** **12. Advanced Browsing experience. <br>** &nbsp;&nbsp;&nbsp; - Goto alternative view (Alt+G) Example: PCI<>IO or Memory, ACPI<>Memory<br>&nbsp;&nbsp;&nbsp; - Go back previous view(Alt+B)<br> **13. Save View data to file (Save as TXT, HTML, Binary)<br>** (http://ubios.blogspot.com)|
+|[ PLC](http://ubios.blogspot.com/)|1.0.1.2|Windows|**1. UEFI/BIOS Smart Debug Information<br>**  - Error/Checkpoint/Guid Message clarification and color highlight<br> - User defined message filter and color highight (Support two uder defined sets)<br> - Quick message search and locate debug message<br> - Save debug message on the fly (save to file)<br> - Load debug message and analysis<br>**2. Addon Debug Message Functions<br>** - Calculate the timeing between two marked debug messages, can be used to measure and tune the BIOS POST time.<br> (Click the 'Time' button on tool bar to open the 'Time' Windows, then use 'SPACE' key to mark the message.<br> - GUID and Meaniningful name translation <br> * Lookup the BIOS source code at startup. Once the GUID is displayed in the dbeug message, convert the GUID to the driver/protocol name of the GUID.<br>* (Need to set the 'GUID File Path' in the "Config" window to point to the UEFI/BIOS source code)<br>* (Click the 'Decode Messages' button in the tool bar to enable/disable the trsnslation.<br>**3. USB<br>**  - USB topology map<br> - Save the USB topology map to TXT or ASL file<br>* - Compare the USB topology map. Can be utilize to check if any USB device loss cross system boots. (support command line mode)<br> - ACPI ASL _UPC and _PLD generation for USB devices.<br>**4. Disk<br>**  - Need to launch the application in Administrator right.<br> - View GPT/MBR information<br> - Check disk boot capability.<br>**5. Console Redirection<br>**  - Click 'Terminal' button in the tool bar to open the console window.<br> - Support ANSI/VT100 (Similar to Putty/Teraterm)<br> - Capture screen to file.<br>**6. SUT Control (Control M/B)<br>**  - Need specific hardware<br> - Support Web http/https request or windows exe/bat to control the M/B - Support 'Level' or Pulse control<br> - Capable to control the M/B AC power or Power Button<br>**7. UEFI Variable READ<br>**  - Need Administrator Right<br> - Read UEFI Variable in Windows <br>(http://ubios.blogspot.com)|
