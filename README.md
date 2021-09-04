@@ -13,6 +13,7 @@ Firmware related resources
     <BR>-[File System and Disc Format](#file-system-and-disc-format)
     <BR>-[File Format](#file-format)
 4. [Tools](#tools)
+5. [Compilers/ToolChains](#Compilers/ToolChains)
 
 ## Official Sites
 
@@ -28,6 +29,7 @@ List of Organizations, Company, Govermant sites which are firmware and OS relate
 |Connectivity Standard Alliance|https://csa-iot.org/|Zigbee
 |CoreBoot|http://www.coreboot.org|
 |DMTF|https://www.dmtf.org|CADF, CDM, CLOUD, CIM, CMDBf, DASH, NETMAN, OVF, PMCI, REDFISH, SMASH, SMBIOS, VMAN, WBEM, WS-MAN
+|GNU|https://www.gnu.org/|GNU OS, Software, Tools, Compilers
 |HDMI|https://www.hdmi.org|HDMI<BR>
 |INCITS T10|https://www.t10.org|SCSI<BR>SAS
 |INCITS T13|https://www.t13.org|ATA/ATAPI<BR>
@@ -115,13 +117,11 @@ Firmware and OS architecture sites
 
 |Specification|URL|Notes|
 |:-----------------|:-------------------|:-----------------|
-|[DASH Specification (DMTF)](https://www.dmtf.org/standards/dash)|[	DASH Implementation Requirements 1.2.1](https://www.dmtf.org/sites/default/files/standards/documents/DSP0232_1.2.1.pdf)<br>[WS-Management CIM Binding Specification 1.2.0](https://www.dmtf.org/sites/default/files/standards/documents/DSP0227_1.2.0.pdf)<br>[Systems Management Architecture for Mobile and Desktop Hardware White Paper 1.1.0](https://www.dmtf.org/sites/default/files/standards/documents/DSP2014_1.1.0.pdf)<br>[DASH Delivers Multi-Vendor Management for Desktop and Mobile Systems 1.0.0](https://www.dmtf.org/sites/default/files/standards/documents/DASHTechNote.pdf)|
-|Intel AMT|https://www.intel.com/content/www/us/en/architecture-and-technology/intel-active-management-technology.html|
-|[IPMI Specification](https://www.intel.com.tw/content/www/tw/zh/servers/ipmi/ipmi-technical-resources.html?wapkw=ipmi)|[IPMI v2.0 rev. 1.1](https://www.intel.com/content/dam/www/public/us/en/documents/product-briefs/ipmi-second-gen-interface-spec-v2-rev1-1.pdf)|
-|[IPMI Tools](https://www.intel.com.tw/content/www/tw/zh/servers/ipmi/ipmi-technical-resources.html?wapkw=ipmi)|[IPMI, V2.0, Conformance Test Suite (ICTS) Prototype, V6.02](https://www.intel.com.tw/content/dam/www/public/us/en/documents/product-briefs/icts_v602.zip)<br>[IPMI, V2.0, V1.5, and V1.0, Reference Drivers](https://www.intel.com.tw/content/dam/www/public/us/en/documents/product-briefs/drvjan13_2005.zip)<br>[IPMI, V2.0, Command Test Tool](https://www.intel.com.tw/content/dam/www/public/us/en/documents/product-briefs/ipmitool_01-13-05.zip)|
-|[Redfish Specification (DMTF)](https://www.dmtf.org/standards/redfish)|[Redfish Specification 1.11.1](https://www.dmtf.org/sites/default/files/standards/documents/DSP0266_1.11.1.pdf)<br>[Redfish Host Interface Specification 1.3.0](https://www.dmtf.org/sites/default/files/standards/documents/DSP0270_1.3.0.pdf)<br>[Redfish Interoperability Profiles Specification 1.3.0](https://www.dmtf.org/sites/default/files/standards/documents/DSP0272_1.3.0.pdf)<br>[Redfish Schema Supplement 2020.3](https://www.dmtf.org/sites/default/files/standards/documents/DSP0268_2020.3.pdf)|
-|[Redfish Tools (DMTF Github)](https://github.com/DMTF)|[Redfish Test Framework](https://github.com/DMTF/Redfish-Test-Framework)|
-|[Swordfish Specification (SNIA)](https://www.snia.org/forums/smi/swordfish)|[click](https://www.snia.org/tech_activities/publicreview#swordfish)|
+|DASH Specification (DMTF)|-[Information](https://www.dmtf.org/standards/dash)<br>-[DASH Implementation Requirements 1.2.1](https://www.dmtf.org/sites/default/files/standards/documents/DSP0232_1.2.1.pdf)<br>-[WS-Management CIM Binding Specification 1.2.0](https://www.dmtf.org/sites/default/files/standards/documents/DSP0227_1.2.0.pdf)<br>-[Systems Management Architecture for Mobile and Desktop Hardware White Paper 1.1.0](https://www.dmtf.org/sites/default/files/standards/documents/DSP2014_1.1.0.pdf)<br>-[DASH Delivers Multi-Vendor Management for Desktop and Mobile Systems 1.0.0](https://www.dmtf.org/sites/default/files/standards/documents/DASHTechNote.pdf)|
+|Intel AMT|[Information](https://www.intel.com/content/www/us/en/architecture-and-technology/intel-active-management-technology.html)|
+|IPMI Specification|-[Information](https://www.intel.com.tw/content/www/tw/zh/servers/ipmi/ipmi-technical-resources.html?wapkw=ipmi)<br>-[IPMI v2.0 rev. 1.1](https://www.intel.com/content/dam/www/public/us/en/documents/product-briefs/ipmi-second-gen-interface-spec-v2-rev1-1.pdf)|
+|Redfish Specification (DMTF)|-[Information](https://www.dmtf.org/standards/redfish)<br>-[Redfish Specification 1.11.1](https://www.dmtf.org/sites/default/files/standards/documents/DSP0266_1.11.1.pdf)<br>-[Redfish Host Interface Specification 1.3.0](https://www.dmtf.org/sites/default/files/standards/documents/DSP0270_1.3.0.pdf)<br>-[Redfish Interoperability Profiles Specification 1.3.0](https://www.dmtf.org/sites/default/files/standards/documents/DSP0272_1.3.0.pdf)<br>-[Redfish Schema Supplement 2020.3](https://www.dmtf.org/sites/default/files/standards/documents/DSP0268_2020.3.pdf)|
+|Swordfish Specification (SNIA)|-[Information](https://www.snia.org/forums/smi/swordfish)<br>-[click](https://www.snia.org/tech_activities/publicreview#swordfish)|
 |RDP||
 |VNC||
 
@@ -166,3 +166,24 @@ Firmware and OS architecture sites
 |:-----------------|:-------------------|:-----------------|:-----------------|
 |[ PL](http://ubios.blogspot.com/)|1.5.0.10|DOS|PL Provides:<br>**1.	PCI Bus/Device Information(PCI register read/write)<br>** **2.	USB host controller information<br>** **3.	System memory read/write<br>** **4.	I/O address read/write<br>** **5.	Index IO read/write<br>** **6.	HD-Audio Controller Information (Include immediate VERB command, save codec cmd sequence as c file)<br>** **7.	AC97 Controller<br>** **8.	ACPI Table<br>** **9.	Disk read/write<br>** **10.	Int15h E820 maps advanced browsing<br>** **11.	Multi Processor(MP) Table dump.<br>** **12. Advanced Browsing experience. <br>** &nbsp;&nbsp;&nbsp; - Goto alternative view (Alt+G) Example: PCI<>IO or Memory, ACPI<>Memory<br>&nbsp;&nbsp;&nbsp; - Go back previous view(Alt+B)<br> **13. Save View data to file (Save as TXT, HTML, Binary)<br>** (http://ubios.blogspot.com)|
 |[ PLC](http://ubios.blogspot.com/)|1.0.1.2|Windows|**1. UEFI/BIOS Smart Debug Information<br>**  - Error/Checkpoint/Guid Message clarification and color highlight<br> - User defined message filter and color highight (Support two uder defined sets)<br> - Quick message search and locate debug message<br> - Save debug message on the fly (save to file)<br> - Load debug message and analysis<br>**2. Addon Debug Message Functions<br>** - Calculate the timeing between two marked debug messages, can be used to measure and tune the BIOS POST time.<br> (Click the 'Time' button on tool bar to open the 'Time' Windows, then use 'SPACE' key to mark the message.<br> - GUID and Meaniningful name translation <br> * Lookup the BIOS source code at startup. Once the GUID is displayed in the dbeug message, convert the GUID to the driver/protocol name of the GUID.<br>* (Need to set the 'GUID File Path' in the "Config" window to point to the UEFI/BIOS source code)<br>* (Click the 'Decode Messages' button in the tool bar to enable/disable the trsnslation.<br>**3. USB<br>**  - USB topology map<br> - Save the USB topology map to TXT or ASL file<br>* - Compare the USB topology map. Can be utilize to check if any USB device loss cross system boots. (support command line mode)<br> - ACPI ASL _UPC and _PLD generation for USB devices.<br>**4. Disk<br>**  - Need to launch the application in Administrator right.<br> - View GPT/MBR information<br> - Check disk boot capability.<br>**5. Console Redirection<br>**  - Click 'Terminal' button in the tool bar to open the console window.<br> - Support ANSI/VT100 (Similar to Putty/Teraterm)<br> - Capture screen to file.<br>**6. SUT Control (Control M/B)<br>**  - Need specific hardware<br> - Support Web http/https request or windows exe/bat to control the M/B - Support 'Level' or Pulse control<br> - Capable to control the M/B AC power or Power Button<br>**7. UEFI Variable READ<br>**  - Need Administrator Right<br> - Read UEFI Variable in Windows <br>(http://ubios.blogspot.com)|
+|IPMI Tools|-[Information](https://www.intel.com.tw/content/www/tw/zh/servers/ipmi/ipmi-technical-resources.html?wapkw=ipmi)-[IPMI, V2.0, Conformance Test Suite (ICTS) Prototype, V6.02](https://www.intel.com.tw/content/dam/www/public/us/en/documents/product-briefs/icts_v602.zip)<br>-[IPMI, V2.0, V1.5, and V1.0, Reference Drivers](https://www.intel.com.tw/content/dam/www/public/us/en/documents/product-briefs/drvjan13_2005.zip)<br>-[IPMI, V2.0, Command Test Tool](https://www.intel.com.tw/content/dam/www/public/us/en/documents/product-briefs/ipmitool_01-13-05.zip)|
+|Redfish Tools (DMTF Github)|[Redfish Test Framework](https://github.com/DMTF/Redfish-Test-Framework)|
+
+
+## Compilers/ToolChains
+
+List all compilers and firmware build tools
+
+|Compiler/ToolChains|Version|OS|Notes|
+|:--------------------|:-----------------------|:-----------------|:-----------------|
+|Gnu GCC|-[All Versions](https://gcc.gnu.org/)<br>-[Gnu GCC v11](https://gcc.gnu.org/gcc-11/)|Linux<br>Windows<br>|Support Various Architectures
+|ARM Gnu ToolChain|-[All Versions](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain)|Linux<br>Windows<br>|GCC, GDB, BinTools, and libraries for ARM32 and Aarch64
+|Linaro GCC|[All Versions](https://snapshots.linaro.org/gnu-toolchain/)|Linux<br>Windows<br>|Linaro Monthly Build Gnu ToolChains for ARM32 and Aarch64
+|Linaro LLVM|-[All Versions](https://github.com/llvm/llvm-project/releases/)<br>-[v13.0.0.rc2](https://github.com/llvm/llvm-project/releases/tag/llvmorg-13.0.0-rc2)|Linux<br>Windows<br>|
+|LLVM|-[Information](https://llvm.org/)<br>-[v12.0.1](https://releases.llvm.org/download.html#12.0.1)|Linux<br>Windows<br>|
+|Microsoft Visual Studio|[Download](https://visualstudio.microsoft.com/en-us/downloads/)|Windows|
+|Microsoft Build Tools|-[2015](https://www.microsoft.com/en-us/download/details.aspx?id=48159)<br>-[Build Tools for Visual Studio2019](https://visualstudio.microsoft.com/en-us/thank-you-downloading-visual-studio/?sku=BuildTools&rel=16)<br>-[Build Tools Component](https://docs.microsoft.com/en-us/visualstudio/install/workload-component-id-vs-build-tools?view=vs-2019)|Windows|
+|Microsoft EWDK|-[Windows 11 EWDK](https://docs.microsoft.com/en-us/legal/windows/hardware/enterprise-wdk-license-2019-New)<br>-[EWDK for Windows Server 2022](https://docs.microsoft.com/en-us/legal/windows/hardware/enterprise-wdk-license-2019)<br>-[EWDK for Windows 10 v2004](https://docs.microsoft.com/en-us/legal/windows/hardware/enterprise-wdk-license-2019)<br>-[EWDK for Windows 10 v1903](https://docs.microsoft.com/en-us/legal/windows/hardware/enterprise-wdk-license-2019)<br>-[EWDK for Windows 10 v1809](https://docs.microsoft.com/en-us/legal/windows/hardware/enterprise-wdk-license-2017)<br>-[EWDK for Windows 10 v1803](https://docs.microsoft.com/en-us/legal/windows/hardware/enterprise-wdk-license-2017)<br>-[EWDK for Windows 10 v1709](https://docs.microsoft.com/en-us/legal/windows/hardware/enterprise-wdk-license-2017)|Windows|
+|ACPICA|-[Information](https://www.acpica.org/)<br>-[Downloads](https://www.acpica.org/downloads)<br>-[v2021_0730](https://www.acpica.org/node/195)|Linux<br>Windows|ACPI ASL Language Compiler
+|NASM(Netwide Assembler)|-[Information](https://www.nasm.us/)<br>-[Downloads](https://www.nasm.us/pub/nasm/releasebuilds/?C=M;O=D)<br>-[v2.15.05](https://www.nasm.us/pub/nasm/releasebuilds/2.15.05/)|Linux<br>macOS<br>Windows|
+|Python|-[Downloads](https://www.python.org/downloads/)|Linux<br>macOS<br>Windows|
