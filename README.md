@@ -1,6 +1,5 @@
 # FirmwareResources
-Firmware related resources
-
+This document list all firmware related resources.
 
 # Firmware and OS Specifications/Standards Maintained by TonyLo
 
@@ -28,7 +27,7 @@ List of Organizations, Company, Govermant sites which are firmware and OS relate
 |Bluetooth|https://www.bluetooth.com|Bluetooth Specifications<BR>Bluetooth Profiles
 |Connectivity Standard Alliance|https://csa-iot.org/|Zigbee
 |CoreBoot|http://www.coreboot.org|
-|DMTF|https://www.dmtf.org|CADF, CDM, CLOUD, CIM, CMDBf, DASH, NETMAN, OVF, PMCI, REDFISH, SMASH, SMBIOS, VMAN, WBEM, WS-MAN
+|DMTF|https://www.dmtf.org|-[CADF](https://www.dmtf.org/standards/cadf)<br>-[CDM](https://www.dmtf.org/standards/cdm)<br>-[CLOUD](https://www.dmtf.org/standards/cloud)<br>-[CIM](https://www.dmtf.org/standards/cim)<br>-[CMDBf](https://www.dmtf.org/standards/cmdbf)<br>-[DASH](https://www.dmtf.org/standards/dash)<br>-[NETMAN](https://www.dmtf.org/standards/netman)<br>-[OVF](https://www.dmtf.org/standards/ovf)<br>-[PMCI](https://www.dmtf.org/standards/pmci)<br>-[REDFISH](https://www.dmtf.org/standards/redfish)<br>-[SMASH](https://www.dmtf.org/standards/smash)<br>-[SMBIOS](https://www.dmtf.org/standards/smbios)<br>-[VMAN](https://www.dmtf.org/standards/vman)<br>-[WBEM](https://www.dmtf.org/standards/wbem)<br>-[WS-MAN](https://www.dmtf.org/standards/ws-man)
 |GNU|https://www.gnu.org/|GNU OS, Software, Tools, Compilers
 |HDMI|https://www.hdmi.org|HDMI<BR>
 |INCITS T10|https://www.t10.org|SCSI<BR>SAS
@@ -68,6 +67,7 @@ Firmware and OS architecture sites
 |OpenBIOS|https://www.openbios.info/|
 |OpenBMC|https://www.openbmc.org/|
 |Open System Firmware|https://www.opencompute.org/projects/open-system-firmware|
+|Project Mu|https://microsoft.github.io/mu/|Microsoft Open Source Firmware|
 |SeaBIOS|https://www.seabios.org|Legacy BIOS
 |SeaVGABios|https://seabios.org/SeaVGABIOS|Open Source VGA BIOS
 |u-bmc|https://github.com/u-root/u-bmc|
@@ -122,6 +122,13 @@ Firmware and OS architecture sites
 |IPMI Specification|-[Information](https://www.intel.com.tw/content/www/tw/zh/servers/ipmi/ipmi-technical-resources.html?wapkw=ipmi)<br>-[IPMI v2.0 rev. 1.1](https://www.intel.com/content/dam/www/public/us/en/documents/product-briefs/ipmi-second-gen-interface-spec-v2-rev1-1.pdf)|
 |Redfish Specification (DMTF)|-[Information](https://www.dmtf.org/standards/redfish)<br>-[Redfish Specification 1.11.1](https://www.dmtf.org/sites/default/files/standards/documents/DSP0266_1.11.1.pdf)<br>-[Redfish Host Interface Specification 1.3.0](https://www.dmtf.org/sites/default/files/standards/documents/DSP0270_1.3.0.pdf)<br>-[Redfish Interoperability Profiles Specification 1.3.0](https://www.dmtf.org/sites/default/files/standards/documents/DSP0272_1.3.0.pdf)<br>-[Redfish Schema Supplement 2020.3](https://www.dmtf.org/sites/default/files/standards/documents/DSP0268_2020.3.pdf)|
 |Swordfish Specification (SNIA)|-[Information](https://www.snia.org/forums/smi/swordfish)<br>-[click](https://www.snia.org/tech_activities/publicreview#swordfish)|
+
+
+
+|Remote Desktop/Connection Protocol |URL|Notes|
+|:-----------------|:-------------------|:-----------------|
+|VT100||
+|SSH||
 |RDP||
 |VNC||
 
@@ -130,9 +137,16 @@ Firmware and OS architecture sites
 
 |Specification|URL|Notes|
 |:-----------------|:-------------------|:-----------------|
-|ACPI|-[v6.4 PDF](https://uefi.org/sites/default/files/resources/ACPI_Spec_6_4_Jan22.pdf)<br>-[v6.4 HTML](https://uefi.org/specifications/ACPI/6.4/)|acpi spec, acpi tables|
-|Bluetooth||core spec, profiles|
+|ACPI|-[v6.4 PDF - January 2021](https://uefi.org/sites/default/files/resources/ACPI_Spec_6_4_Jan22.pdf)<br>-[v6.4 HTML](https://uefi.org/specifications/ACPI/6.4/)|acpi spec, acpi tables|
+|APM (Advanced Power Management)|||
+|ASF (Alert Standard Format)(DMTF)|-[ASF v2.0 - 23/Apr/2003](https://www.dmtf.org/sites/default/files/standards/documents/DSP0136.pdf)||
+|BBS (Bios Boot Specification)|||
+|EDD (Enhanced Disk Drive)|-[EDD v4.0](https://t13.org/system/files/Documents/2014/f14138r2-Draft%20Amendment%201%20for%20EDD-4_1.pdf)||
 |EDK2 Specifications|https://github.com/tianocore-docs/Docs|
+|PMM (Post Memory Manager)|||
+|PXE|||
+|SMBIOS|-[SMBIOS Spec List](https://www.dmtf.org/standards/smbios)<br>-[SMBIOS v3.5.0 - 21/Sep/2021](https://www.dmtf.org/sites/default/files/standards/documents/DSP0134_3.5.0.pdf)<br>-[SMBIOS v3.4.0 - 17/Jul/2020](https://www.dmtf.org/sites/default/files/standards/documents/DSP0134_3.4.0.pdf)||
+|TCG|||
 |UEFI|-[UEFI Specification v2.9](https://uefi.org/sites/default/files/resources/UEFI_Spec_2_9_2021_03_18.pdf)<br>-[UEFI Shell Specification v2.2](http://www.uefi.org/sites/default/files/resources/UEFI_Shell_2_2.pdf)<br>-[UEFI PI v1.7 Errata A](https://uefi.org/sites/default/files/resources/PI_Spec_1_7_A_final_May1.pdf)<br>|uefi spec, PI spec, UEFI shell, UEFI SCT|
 
 
