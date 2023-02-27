@@ -3,16 +3,18 @@ This document list all firmware related resources.
 
 # Firmware and OS Specifications/Standards Maintained by TonyLo
 
-1. [Official Sites](#Official-sites)
-2. [Firmware and OS Architecture](#firmware-and-os-architecture)
-3. [Specifications](#Specifications)
-    <BR>-[Bus Specifications](#bus-specifications)
-    <BR>-[Remote Management Specifications](#remote-management-specifications)
-    <BR>-[Industry Standard and Specifications](#industry-standard-specifications)
-    <BR>-[File System and Disc Format](#file-system-and-disc-format)
-    <BR>-[File Format](#file-format)
-4. [Tools](#tools)
-5. [Compilers/ToolChains](#Compilers/ToolChains)
+- [FirmwareResources](#firmwareresources)
+- [Firmware and OS Specifications/Standards Maintained by TonyLo](#firmware-and-os-specificationsstandards-maintained-by-tonylo)
+  - [Official Sites](#official-sites)
+  - [Firmware and OS Architecture](#firmware-and-os-architecture)
+  - [Specifications](#specifications)
+    - [Bus Technology](#bus-technology)
+    - [Remote Management Specifications](#remote-management-specifications)
+    - [Industry Standard Specifications](#industry-standard-specifications)
+    - [File System and Disc Format](#file-system-and-disc-format)
+    - [File Format](#file-format)
+  - [Tools](#tools)
+  - [Compilers/ToolChains](#compilerstoolchains)
 
 ## Official Sites
 
@@ -27,19 +29,23 @@ List of Organizations, Company, Govermant sites which are firmware and OS relate
 |Bluetooth|https://www.bluetooth.com|Bluetooth Specifications<BR>Bluetooth Profiles
 |Connectivity Standard Alliance|https://csa-iot.org/|Zigbee
 |CoreBoot|http://www.coreboot.org|
+|CXL|https://www.computeexpresslink.org/|Compute Express Link
 |DMTF|https://www.dmtf.org|-[CADF](https://www.dmtf.org/standards/cadf)<br>-[CDM](https://www.dmtf.org/standards/cdm)<br>-[CLOUD](https://www.dmtf.org/standards/cloud)<br>-[CIM](https://www.dmtf.org/standards/cim)<br>-[CMDBf](https://www.dmtf.org/standards/cmdbf)<br>-[DASH](https://www.dmtf.org/standards/dash)<br>-[NETMAN](https://www.dmtf.org/standards/netman)<br>-[OVF](https://www.dmtf.org/standards/ovf)<br>-[PMCI](https://www.dmtf.org/standards/pmci)<br>-[REDFISH](https://www.dmtf.org/standards/redfish)<br>-[SMASH](https://www.dmtf.org/standards/smash)<br>-[SMBIOS](https://www.dmtf.org/standards/smbios)<br>-[VMAN](https://www.dmtf.org/standards/vman)<br>-[WBEM](https://www.dmtf.org/standards/wbem)<br>-[WS-MAN](https://www.dmtf.org/standards/ws-man)
+|FiRa|https://www.firaconsortium.org/|FiRa Consortium, UWB promoter group
 |GNU|https://www.gnu.org/|GNU OS, Software, Tools, Compilers
 |HDMI|https://www.hdmi.org|HDMI<BR>
 |INCITS T10|https://www.t10.org|SCSI<BR>SAS
 |INCITS T13|https://www.t13.org|ATA/ATAPI<BR>
 |Intel|https://www.intel.com|Intel Processor/Chipsets<BR>XHCI<BR>eSPI<BR>AC97
 |JEDEC|https://www.jedec.org|Microelectronics Standard<BR>eMMC<BR>UFS
+|Linaro|https://www.linaro.org/|ARM and open source projects
 |MCC|https://www.mcc-us.com/|I2C Bus Analyzer
 |MIPI Alliance|https://www.mipi.org|MIPI<BR>
 |Microsoft|https://www.microsoft.com|Microsoft Windows<BR>
 |NIST|https://www.nist.gov|NIST Standards
 |NVM Express|https://www.nvmexpress.org|NVMe<BR>
 |NXP|https://www.nxp.com/|
+|OCP|https://www.opencompute.org/|Open Compute Project<br>Datacenter, 5G, Telco, DC-MHS<br>
 |OpenBIOS|https://www.openbios.info/|
 |OpenBMC|https://www.openbmc.org/|OpenBMC
 |PCI-SIG|https://pcisig.com/|PCI<BR>PCI Express<BR>
@@ -72,7 +78,10 @@ Firmware and OS architecture sites
 |SeaVGABios|https://seabios.org/SeaVGABIOS|Open Source VGA BIOS
 |u-bmc|https://github.com/u-root/u-bmc|
 |U-Boot|https://www.denx.de/wiki/U-Boot|
+|USF|https://www.intel.com/content/www/us/en/developer/articles/technical/universal-scalable-firmware.html/|Universal Scalable Firmware|
 |UEFI Firmware|http://www.uefi.org|
+|UWB Alliance|https://uwballiance.org/|
+|WiMedia Alliance|https://www.wimedia.org|
 
 
 ## Specifications
@@ -87,8 +96,9 @@ Firmware and OS architecture sites
 |AGP Specification|[v1.0](http://www.playtool.com/pages/agpcompat/agp10.pdf)<br>[v3.0](http://www.playtool.com/pages/agpcompat/agp30.pdf)|
 |AGP Pro Specification|[v1.1a](https://web.archive.org/web/20021003222339/http://www.agpforum.org/downloads/apro_r11a.pdf)|
 |ATA/ATAPI Specification|-[ACS-4 Rev.14](http://www.t13.org/Documents/UploadedDocuments/docs2016/di529r14-ATAATAPI_Command_Set_-_4.pdf)<br>-[ATA8 ACS](http://www.t13.org/documents/UploadedDocuments/docs2007/D1699r4a-ATA8-ACS.pdf)<br>[ATA8 ACS2](http://www.t13.org/Documents/UploadedDocuments/docs2009/d2015r2-ATAATAPI_Command_set_-_2_ACS-2.pdf)<br>-[ATAPI for CDROM 8020i rev2.6](http://www.bswd.com/sff8020i.pdf)<br>-ATA for Removable 8070i|
-|Bluetooth|-[CS 5.2](https://www.bluetooth.org/docman/handlers/downloaddoc.ashx?doc_id=478726)<br>-[CSS 9](https://www.bluetooth.org/docman/handlers/DownloadDoc.ashx?doc_id=480305)<br>-[Bluetooth GATT Specification](https://www.bluetooth.com/specifications/gatt/)<br>-[Bluetooth Traditional Profile](https://www.bluetooth.com/specifications/profiles-overview/)<br>-[Bluetooth Protocol Specification](https://www.bluetooth.com/specifications/protocol-specifications/)|
+|Bluetooth|-[Bluetooth Specifications List](https://www.bluetooth.com/specifications/spec/)<br>-[Core Specification 5.3](https://www.bluetooth.com/specifications/specs/core-specification-5-3/)<br>-[Core Specification 5.2](https://www.bluetooth.org/docman/handlers/downloaddoc.ashx?doc_id=478726)<br>-[CSS 9](https://www.bluetooth.org/docman/handlers/DownloadDoc.ashx?doc_id=480305)<br>|
 |CAN Bus/CAN-FD|-[CAN-FD Information](http://www.bosch-semiconductors.com/ip-modules/can-ip-modules/can-fd/)<br>-[CAN-FD v1.0](https://can-newsletter.org/assets/files/ttmedia/raw/e5740b7b5781b8960f55efcc2b93edf8.pdf)|
+|CXL|https://www.computeexpresslink.org/|Compute Express Link
 |eMMC Specification|[v5.1a](https://www.jedec.org/standards-documents/technology-focus-areas/flash-memory-ssds-ufs-emmc/e-mmc)|
 |HDAudio Specification|[v1.0a](https://www.intel.com/content/dam/www/public/us/en/documents/product-specifications/high-definition-audio-specification.pdf)|
 |HDMI Specification|[v2.1](https://www.hdmi.org/spec/hdmi2_1)|
@@ -103,12 +113,14 @@ Firmware and OS architecture sites
 |SD/SDIO/SD Express|-[All Specifications](https://www.sdcard.org/downloads/)<br>-[Latest WhitePapers](https://www.sdcard.org/downloads/pls/latest_whitepapers/)<br>-[SDIO Simplified Specification v3.0](https://www.sdcard.org/downloads/pls/pdf?p=PartE1_SDIO_Simplified_Specification_Ver3.00.jpg&f=PartE1_SDIO_Simplified_Specification_Ver3.00.pdf&e=EN_SSE1)<br>-[SD Host Controller Specification v4.20](https://www.sdcard.org/downloads/pls/pdf?p=PartA2_SD%20Host_Controller_Simplified_Specification_Ver4.20.jpg&f=PartA2_SD%20Host_Controller_Simplified_Specification_Ver4.20.pdf&e=EN_SSA2)<br>-[iSDIO Simplified Specification v1.10](https://www.sdcard.org/downloads/pls/pdf?p=PartE7_iSDIO_Simplified_Specification_Ver1.10.jpg&f=PartE7_iSDIO_Simplified_Specification_Ver1.10.pdf&e=EN_SSE7)|
 |Serial ATA|-[SATA rev3.5](https://sata-io.org/developers/purchase-specification)<br>-[AHCI v1.3.1](https://www.intel.com.tw/content/dam/www/public/us/en/documents/technical-specifications/serial-ata-ahci-spec-rev1-3-1.pdf)<br>-[AHCI v1.3](https://www.intel.com.tw/content/dam/www/public/us/en/documents/technical-specifications/serial-ata-ahci-spec-rev1_3.pdf)<br>-Port Multiplier|
 |SMBus Specification|-[SMBus Specification v3.1](http://smbus.org/specs/SMBus_3_1_20180319.pdf)<br>-[SMBus BIOS Specification v1.0](http://smbus.org/specs/smbb10.pdf)|
-|SPI Bus Specification||
+|SPI Bus Specification|[click](https://ww1.microchip.com/downloads/en/devicedoc/spi.pdf)|
+|Thunderbolt|[click](https://www.intel.com/content/www/us/en/architecture-and-technology/thunderbolt/overview.html)|
 |eSPI Bus Specification|[v1.0](https://www.intel.com/content/dam/support/us/en/documents/software/chipset-software/327432-004_espi_base_specification_rev1.0_cb.pdf)|
-|UFS Specification||
-|USB Bus Specifications|[All USB Specifications](https://www.usb.org/documents)<br>-[USB Bus Specifications v2.0](https://www.usb.org/sites/default/files/usb_20_20210701.zip)<br>-[USB Bus Specifications v3.2](https://www.usb.org/sites/default/files/usb_32_20210125.zip)<br>-[USB Bus Specifications v4.x](https://usb.org/sites/default/files/USB4%20Specification_5.zip)|
+|UFS Specification|[click](https://www.jedec.org/standards-documents/focus/flash/universal-flash-storage-ufs)|
+|USB Bus Specifications|-[USB Specifications List](https://www.usb.org/documents)<br>-[USB Bus Specifications v2.0](https://www.usb.org/sites/default/files/usb_20_20210701.zip)<br>-[USB Bus Specifications v3.2](https://www.usb.org/sites/default/files/usb_32_20210125.zip)<br>-[USB Bus Specifications v4.x](https://usb.org/sites/default/files/USB4%20Specification_5.zip)|
 |USB Device Class Specifications|[click](http://www.usb.org/developers/docs/devclass_docs/)|
 |USB Host Controller Specification|-UHCI<br>-[OHCI v1.0a](http://www.o3one.org/hwdocs/usb/hcir1_0a.pdf)<br>-[EHCI v1.1](https://www.intel.com/content/dam/www/public/us/en/documents/technical-specifications/ehci-specification-for-usb.pdf)<br>-[XHCI rev1.2](https://www.intel.com/content/dam/www/public/us/en/documents/technical-specifications/extensible-host-controler-interface-usb-xhci.pdf)|
+|UWB|[UWB Wiki](https://en.wikipedia.org/wiki/Ultra-wideband)<br>[UWB Standards and Organizations](https://arxiv.org/pdf/2202.02190.pdf)
 |WiFi Specification|[click](https://www.wi-fi.org/discover-wi-fi/specifications)|
 |Zigbee|[click](https://zigbeealliance.org/developer_resources/)|
 
@@ -120,7 +132,7 @@ Firmware and OS architecture sites
 |DASH Specification (DMTF)|-[Information](https://www.dmtf.org/standards/dash)<br>-[DASH Implementation Requirements 1.2.1](https://www.dmtf.org/sites/default/files/standards/documents/DSP0232_1.2.1.pdf)<br>-[WS-Management CIM Binding Specification 1.2.0](https://www.dmtf.org/sites/default/files/standards/documents/DSP0227_1.2.0.pdf)<br>-[Systems Management Architecture for Mobile and Desktop Hardware White Paper 1.1.0](https://www.dmtf.org/sites/default/files/standards/documents/DSP2014_1.1.0.pdf)<br>-[DASH Delivers Multi-Vendor Management for Desktop and Mobile Systems 1.0.0](https://www.dmtf.org/sites/default/files/standards/documents/DASHTechNote.pdf)|
 |Intel AMT|[Information](https://www.intel.com/content/www/us/en/architecture-and-technology/intel-active-management-technology.html)|
 |IPMI Specification|-[Information](https://www.intel.com.tw/content/www/tw/zh/servers/ipmi/ipmi-technical-resources.html?wapkw=ipmi)<br>-[IPMI v2.0 rev. 1.1](https://www.intel.com/content/dam/www/public/us/en/documents/product-briefs/ipmi-second-gen-interface-spec-v2-rev1-1.pdf)|
-|Redfish Specification (DMTF)|-[Information](https://www.dmtf.org/standards/redfish)<br>-[Redfish Specification 1.11.1](https://www.dmtf.org/sites/default/files/standards/documents/DSP0266_1.11.1.pdf)<br>-[Redfish Host Interface Specification 1.3.0](https://www.dmtf.org/sites/default/files/standards/documents/DSP0270_1.3.0.pdf)<br>-[Redfish Interoperability Profiles Specification 1.3.0](https://www.dmtf.org/sites/default/files/standards/documents/DSP0272_1.3.0.pdf)<br>-[Redfish Schema Supplement 2020.3](https://www.dmtf.org/sites/default/files/standards/documents/DSP0268_2020.3.pdf)|
+|Redfish Specification (DMTF)|-[Information](https://www.dmtf.org/standards/redfish)<br>----------Redfish 2022.3---------------------------<br>-[Redfish Specification 1.17.0](https://www.dmtf.org/sites/default/files/standards/documents/DSP0266_1.17.0.pdf)<br>-[Redfish DataModel Specification 2022.3](https://www.dmtf.org/sites/default/files/standards/documents/DSP0268_2022.3.pdf)<br>-[Redfish Interoperability Profiles Specification 1.6.0](https://www.dmtf.org/sites/default/files/standards/documents/DSP0272_1.6.0.pdf)<br>-[Redfish Mockups 2022.3](https://www.dmtf.org/sites/default/files/standards/documents/DSP2043_2022.3.zip)<br>-[Redfish Resource and Schema Guide 2022.3](https://www.dmtf.org/sites/default/files/standards/documents/DSP2046_2022.3.pdf)<br>-[Redfish Property Guide 2022.3](https://www.dmtf.org/sites/default/files/standards/documents/DSP2053_2022.3.pdf)<br>-[Redfish Message Registry Guide 2022.3](https://www.dmtf.org/sites/default/files/standards/documents/DSP2065_2022.3.pdf)<br>-[Redfish Schema Bundle 2022.3](https://www.dmtf.org/sites/default/files/standards/documents/DSP8010_2022.3_0.zip)<br>-[Redfish Standard Registries Bundle 2022.3](https://www.dmtf.org/sites/default/files/standards/documents/DSP8011_2022.3.zip)<br>-[Redfish Interoperability Profiles Bundle 2022.3](https://www.dmtf.org/sites/default/files/standards/documents/DSP8013_2022.3.zip)<br>-[Redfish 2022.3 Overview](https://www.dmtf.org/sites/default/files/standards/documents/Redfish_Release_2022.3_Overview.pdf)<br><br><br>--------Other Redfish Specifications-----------------<br>-[Redfish Specification 1.11.1](https://www.dmtf.org/sites/default/files/standards/documents/DSP0266_1.11.1.pdf)<br>-[Redfish Host Interface Specification 1.3.0](https://www.dmtf.org/sites/default/files/standards/documents/DSP0270_1.3.0.pdf)<br>-[Redfish Interoperability Profiles Specification 1.3.0](https://www.dmtf.org/sites/default/files/standards/documents/DSP0272_1.3.0.pdf)<br>-[Redfish Schema Supplement 2020.3](https://www.dmtf.org/sites/default/files/standards/documents/DSP0268_2020.3.pdf)|
 |Swordfish Specification (SNIA)|-[Information](https://www.snia.org/forums/smi/swordfish)<br>-[click](https://www.snia.org/tech_activities/publicreview#swordfish)|
 
 
