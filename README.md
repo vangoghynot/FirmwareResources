@@ -34,6 +34,7 @@ List of Organizations, Company, Govermant sites which are firmware and OS relate
 |DMTF|https://www.dmtf.org|-[CADF](https://www.dmtf.org/standards/cadf)<br>-[CDM](https://www.dmtf.org/standards/cdm)<br>-[CLOUD](https://www.dmtf.org/standards/cloud)<br>-[CIM](https://www.dmtf.org/standards/cim)<br>-[CMDBf](https://www.dmtf.org/standards/cmdbf)<br>-[DASH](https://www.dmtf.org/standards/dash)<br>-[NETMAN](https://www.dmtf.org/standards/netman)<br>-[OVF](https://www.dmtf.org/standards/ovf)<br>-[PMCI](https://www.dmtf.org/standards/pmci)<br>-[REDFISH](https://www.dmtf.org/standards/redfish)<br>-[SMASH](https://www.dmtf.org/standards/smash)<br>-[SMBIOS](https://www.dmtf.org/standards/smbios)<br>-[VMAN](https://www.dmtf.org/standards/vman)<br>-[WBEM](https://www.dmtf.org/standards/wbem)<br>-[WS-MAN](https://www.dmtf.org/standards/ws-man)
 |FIDO Alliance|https://fidoalliance.org/|User Authentication
 |FiRa|https://www.firaconsortium.org/|FiRa Consortium, UWB promoter group
+|IETF - Internet Exchange Task Force|https://www.ietf.org/|[WG list](https://datatracker.ietf.org/wg/)
 |GNU|https://www.gnu.org/|GNU OS, Software, Tools, Compilers
 |HDMI|https://www.hdmi.org|HDMI<BR>
 |INCITS T10|https://www.t10.org|SCSI<BR>SAS
@@ -53,9 +54,14 @@ List of Organizations, Company, Govermant sites which are firmware and OS relate
 |OCP|https://www.opencompute.org/|Open Compute Project<br>Datacenter, 5G, Telco, DC-MHS<br>
 |OpenBIOS|https://www.openbios.info/|
 |OpenBMC|https://www.openbmc.org/|OpenBMC
+|Open Network|https://opennetworking.org/|
+|Open RAN|https://telecominfraproject.com/openran/|
+|Open RAN Policy Coalition||
+|O-RAN Alliance|https://www.o-ran.org/|
 |PCI-SIG|https://pcisig.com/|PCI<BR>PCI Express<BR>
 |SATA-IO|https://sata-io.org/|Serial ATA
 |SD Association |https://www.sdcard.org|SDCard<BR>MicroSD<BR>SD Express<BR>SDIO<BR>iSDIO
+|SOAFFE|https://www.soafee.io/|
 |Trusted Computing Group|https://trustedcomputinggroup.org/|TPM
 |u-bmc|https://u-bmc.readthedocs.io/|
 |U-Boot|https://www.denx.de/wiki/U-Boot|
@@ -158,10 +164,10 @@ Firmware and OS architecture sites
 
 |Remote Desktop/Connection Protocol |URL|Notes|
 |:-----------------|:-------------------|:-----------------|
-|VT100||
-|SSH||
-|RDP||
-|VNC||
+|ANSI/VT100|[click](https://www2.ccs.neu.edu/research/gpc/VonaUtils/vona/terminal/vtansi.htm)|
+|SSH|[click](https://datatracker.ietf.org/doc/html/rfc4253)|
+|RDP|[click](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-rdpbcgr/5073f4ed-1e93-45e1-b039-6e30c385867c)|
+|VNC/RFB|-[IETF RFB Protocol](https://datatracker.ietf.org/doc/html/rfc6143)<br>-[RFB Protocol - Github](https://github.com/rfbproto/rfbproto/blob/master/rfbproto.rst)<br>|
 
 
 ### Industry Standard Specifications
