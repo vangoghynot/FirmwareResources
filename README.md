@@ -112,7 +112,7 @@ Firmware and OS architecture sites
 |SCSI Specification|[click](https://www.t10.org/scsi-3.htm)|
 |SD/SDIO/SD Express|-[All Specifications](https://www.sdcard.org/downloads/)<br>-[Latest WhitePapers](https://www.sdcard.org/downloads/pls/latest_whitepapers/)<br>-[SDIO Simplified Specification v3.0](https://www.sdcard.org/downloads/pls/pdf?p=PartE1_SDIO_Simplified_Specification_Ver3.00.jpg&f=PartE1_SDIO_Simplified_Specification_Ver3.00.pdf&e=EN_SSE1)<br>-[SD Host Controller Specification v4.20](https://www.sdcard.org/downloads/pls/pdf?p=PartA2_SD%20Host_Controller_Simplified_Specification_Ver4.20.jpg&f=PartA2_SD%20Host_Controller_Simplified_Specification_Ver4.20.pdf&e=EN_SSA2)<br>-[iSDIO Simplified Specification v1.10](https://www.sdcard.org/downloads/pls/pdf?p=PartE7_iSDIO_Simplified_Specification_Ver1.10.jpg&f=PartE7_iSDIO_Simplified_Specification_Ver1.10.pdf&e=EN_SSE7)|
 |Serial ATA|-[SATA rev3.5](https://sata-io.org/developers/purchase-specification)<br>-[AHCI v1.3.1](https://www.intel.com.tw/content/dam/www/public/us/en/documents/technical-specifications/serial-ata-ahci-spec-rev1-3-1.pdf)<br>-[AHCI v1.3](https://www.intel.com.tw/content/dam/www/public/us/en/documents/technical-specifications/serial-ata-ahci-spec-rev1_3.pdf)<br>-Port Multiplier|
-|SMBus Specification|-[SMBus Specification v3.1](http://smbus.org/specs/SMBus_3_1_20180319.pdf)<br>-[SMBus BIOS Specification v1.0](http://smbus.org/specs/smbb10.pdf)|
+|SMBus Specification|-[SMBus Specification v3.2](https://smbus.org/specs/SMBus_3_2_20220112.pdf)<br>-[SMBus Specification v3.1](http://smbus.org/specs/SMBus_3_1_20180319.pdf)<br>-[SMBus BIOS Specification v1.0](http://smbus.org/specs/smbb10.pdf)|
 |SPI Bus Specification|[click](https://ww1.microchip.com/downloads/en/devicedoc/spi.pdf)|
 |Thunderbolt|[click](https://www.intel.com/content/www/us/en/architecture-and-technology/thunderbolt/overview.html)|
 |eSPI Bus Specification|[v1.0](https://www.intel.com/content/dam/support/us/en/documents/software/chipset-software/327432-004_espi_base_specification_rev1.0_cb.pdf)|
@@ -149,17 +149,17 @@ Firmware and OS architecture sites
 
 |Specification|URL|Notes|
 |:-----------------|:-------------------|:-----------------|
-|ACPI|-[v6.4 PDF - January 2021](https://uefi.org/sites/default/files/resources/ACPI_Spec_6_4_Jan22.pdf)<br>-[v6.4 HTML](https://uefi.org/specifications/ACPI/6.4/)|acpi spec, acpi tables|
-|APM (Advanced Power Management)|||
+|ACPI|-[ACPI Specification List](https://uefi.org/specifications)<br>-[(v6.5 PDF)](https://uefi.org/sites/default/files/resources/ACPI_Spec_6_5_Aug29.pdf)-[(v6.5 HTML)](https://uefi.org/specifications/ACPI/6.5/)<br>-[(v6.4 Errata A PDF)](https://uefi.org/sites/default/files/resources/ACPI_Spec_6_4_A_final_Aug29.pdf)-[(v6.4 Errata A HTML)](https://uefi.org/specifications/ACPI/6.4_A/)<br>-[v6.4 PDF - January 2021](https://uefi.org/sites/default/files/resources/ACPI_Spec_6_4_Jan22.pdf)<br>|acpi specifications, acpi tables|
+|APM (Advanced Power Management)|[v1.2 - Feb 1996](https://download.microsoft.com/download/1/6/1/161ba512-40e2-4cc9-843a-923143f3456c/apmv12.rtf)||
 |ASF (Alert Standard Format)(DMTF)|-[ASF v2.0 - 23/Apr/2003](https://www.dmtf.org/sites/default/files/standards/documents/DSP0136.pdf)||
-|BBS (Bios Boot Specification)|||
+|BBS (Bios Boot Specification)|[v1.01 - 11 Jan 1996](https://www.scs.stanford.edu/nyu/04fa/lab/specsbbs101.pdf)||
 |EDD (Enhanced Disk Drive)|-[EDD v4.0](https://t13.org/system/files/Documents/2014/f14138r2-Draft%20Amendment%201%20for%20EDD-4_1.pdf)||
 |EDK2 Specifications|https://github.com/tianocore-docs/Docs|
-|PMM (Post Memory Manager)|||
-|PXE|||
-|SMBIOS|-[SMBIOS Spec List](https://www.dmtf.org/standards/smbios)<br>-[SMBIOS v3.5.0 - 21/Sep/2021](https://www.dmtf.org/sites/default/files/standards/documents/DSP0134_3.5.0.pdf)<br>-[SMBIOS v3.4.0 - 17/Jul/2020](https://www.dmtf.org/sites/default/files/standards/documents/DSP0134_3.4.0.pdf)||
-|TCG|||
-|UEFI|-[UEFI Specification v2.9](https://uefi.org/sites/default/files/resources/UEFI_Spec_2_9_2021_03_18.pdf)<br>-[UEFI Shell Specification v2.2](http://www.uefi.org/sites/default/files/resources/UEFI_Shell_2_2.pdf)<br>-[UEFI PI v1.7 Errata A](https://uefi.org/sites/default/files/resources/PI_Spec_1_7_A_final_May1.pdf)<br>|uefi spec, PI spec, UEFI shell, UEFI SCT|
+|PMM (Post Memory Manager)|[v1.01](https://archive.org/details/specs-pmm101)||
+|PXE|[Tianocore Wiki](https://github.com/tianocore/tianocore.github.io/wiki/PXE)||
+|SMBIOS|-[SMBIOS Spec Info](https://www.dmtf.org/standards/smbios)<br>-[SMBIOS Specification List](https://www.dmtf.org/dsp/DSP0134)<br>-[SMBIOS v3.8.0 - 5 Aug 2024](https://www.dmtf.org/sites/default/files/standards/documents/DSP0134_3.8.0.pdf)<br>-[SMBIOS v3.7.1 - 24 May 2024](https://www.dmtf.org/sites/default/files/standards/documents/DSP0134_3.7.1.pdf)<br>-[SMBIOS v3.7.0 - 21 Jul 2023](https://www.dmtf.org/sites/default/files/standards/documents/DSP0134_3.7.0.pdf)<br>-[SMBIOS v3.6.0 - 20 Jun 2022](https://www.dmtf.org/sites/default/files/standards/documents/DSP0134_3.6.0.pdf)<br>-[SMBIOS v3.5.0 - 21/Sep/2021](https://www.dmtf.org/sites/default/files/standards/documents/DSP0134_3.5.0.pdf)<br>-[SMBIOS v3.4.0 - 17/Jul/2020](https://www.dmtf.org/sites/default/files/standards/documents/DSP0134_3.4.0.pdf)||
+|TCG|[Specification List](https://trustedcomputinggroup.org/resources/?)|Trusted Computing Group|
+|UEFI|UEFI Specification<br>-[UEFI Specification List](https://uefi.org/specifications)<br>-[UEFI Specification v2.10 Errata A - PDF](https://uefi.org/sites/default/files/resources/UEFI_Spec_2_10_A_Aug8.pdf)-[HTML](https://uefi.org/specs/UEFI/2.10_A/)<br>-[UEFI Specification v2.10 - PDF](https://uefi.org/sites/default/files/resources/UEFI_Spec_2_10_Aug29.pdf)-[HTML](https://uefi.org/specs/UEFI/2.10/)<br>-[UEFI Specification v2.9 Errata A - PDF](https://uefi.org/sites/default/files/resources/UEFI_Spec_2_9_A_final_Aug29.pdf)-[HTML](https://uefi.org/specs/UEFI/2.9_A/)<br>-[UEFI Specification v2.9](https://uefi.org/sites/default/files/resources/UEFI_Spec_2_9_2021_03_18.pdf)<br><br>UEFI Shell Specification<br>-[UEFI Shell Specification v2.2](http://www.uefi.org/sites/default/files/resources/UEFI_Shell_2_2.pdf)<br><br>PI Specification<br>-[UEFI PI v1.8 Errata A](https://uefi.org/sites/default/files/resources/PI_Spec_1_8_A_final_2024.03.05.pdf)<br>-[UEFI PI v1.8](https://uefi.org/sites/default/files/resources/UEFI_PI_Spec_1_8_March3.pdf)<br>-[UEFI PI v1.7 Errata B](https://uefi.org/sites/default/files/resources/UEFI_Platform%20Initialization%20Spec%20Version%201.7%20errata%20B_May%202023.pdf)<br>-[UEFI PI v1.7 Errata A](https://uefi.org/sites/default/files/resources/PI_Spec_1_7_A_final_May1.pdf)<br>|uefi spec, PI spec, UEFI shell, UEFI SCT|
 
 
 ### File System and Disc Format
@@ -181,9 +181,11 @@ Firmware and OS architecture sites
 |Specification|Extension|URL|Notes|
 |:-----------------|:-----|:-------------------|:-----------------|
 |Executable and Linking Format (ELF)||-[v1.2](https://refspecs.linuxfoundation.org/elf/elf.pdf)<br>-[v1.1](https://refspecs.linuxfoundation.org/elf/TIS1.1.pdf)|
-|MPEG3|.mp3||
-|MPEG4|.mp4||
+|FLV|.flv||
+|JPG|.jpg, .jpeg|[Standards](https://jpeg.org/jpeg/)|
+|MPEG|.mp3, mp4, .aac, .avc|[Standards](https://www.mpeg.org/standards/)|
 |Microsoft PE/COFF Specification|.dll<br>.exe<br>.sys<br>.obj<br>.efi|-[8.0](http://www.microsoft.com/whdc/system/platform/firmware/PECOFF.mspx)<br>-[Latest web](https://docs.microsoft.com/en-us/windows/win32/debug/pe-format)<br>-[Latest pdf](https://docs.microsoft.com/en-us/windows/win32/opbuildpdf/debug/toc.pdf?branch=live)|
+|PNG|.png|[Specification](https://www.w3.org/TR/2003/REC-PNG-20031110/)|
 |WAVE Audio Format|.wav|[click](https://docs.fileformat.com/audio/wav/)|
 
 ## Tools
