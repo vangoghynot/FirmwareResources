@@ -6,6 +6,7 @@ This document list all firmware related resources.
 - [FirmwareResources](#firmwareresources)
 - [Firmware and OS Specifications/Standards Maintained by TonyLo](#firmware-and-os-specificationsstandards-maintained-by-tonylo)
   - [Official Sites](#official-sites)
+  - [Firmware AI](#firmware-ai)
   - [Firmware and OS Architecture](#firmware-and-os-architecture)
   - [Specifications](#specifications)
     - [Bus Technology](#bus-technology)
@@ -31,19 +32,23 @@ List of Organizations, Company, Govermant sites which are firmware and OS relate
 |CoreBoot|http://www.coreboot.org|
 |CXL|https://www.computeexpresslink.org/|Compute Express Link
 |DMTF|https://www.dmtf.org|-[CADF](https://www.dmtf.org/standards/cadf)<br>-[CDM](https://www.dmtf.org/standards/cdm)<br>-[CLOUD](https://www.dmtf.org/standards/cloud)<br>-[CIM](https://www.dmtf.org/standards/cim)<br>-[CMDBf](https://www.dmtf.org/standards/cmdbf)<br>-[DASH](https://www.dmtf.org/standards/dash)<br>-[NETMAN](https://www.dmtf.org/standards/netman)<br>-[OVF](https://www.dmtf.org/standards/ovf)<br>-[PMCI](https://www.dmtf.org/standards/pmci)<br>-[REDFISH](https://www.dmtf.org/standards/redfish)<br>-[SMASH](https://www.dmtf.org/standards/smash)<br>-[SMBIOS](https://www.dmtf.org/standards/smbios)<br>-[VMAN](https://www.dmtf.org/standards/vman)<br>-[WBEM](https://www.dmtf.org/standards/wbem)<br>-[WS-MAN](https://www.dmtf.org/standards/ws-man)
+|FIDO Alliance|https://fidoalliance.org/|User Authentication
 |FiRa|https://www.firaconsortium.org/|FiRa Consortium, UWB promoter group
 |GNU|https://www.gnu.org/|GNU OS, Software, Tools, Compilers
 |HDMI|https://www.hdmi.org|HDMI<BR>
 |INCITS T10|https://www.t10.org|SCSI<BR>SAS
 |INCITS T13|https://www.t13.org|ATA/ATAPI<BR>
 |Intel|https://www.intel.com|Intel Processor/Chipsets<BR>XHCI<BR>eSPI<BR>AC97
+|ITE|https://www.ite.com.tw/en|EC, SensorHub
 |JEDEC|https://www.jedec.org|Microelectronics Standard<BR>eMMC<BR>UFS
 |Linaro|https://www.linaro.org/|ARM and open source projects
 |MCC|https://www.mcc-us.com/|I2C Bus Analyzer
+|Microchip|https://www.microchip.com/|EC, AI
 |MIPI Alliance|https://www.mipi.org|MIPI<BR>
 |Microsoft|https://www.microsoft.com|Microsoft Windows<BR>
 |NIST|https://www.nist.gov|NIST Standards
 |NVM Express|https://www.nvmexpress.org|NVMe<BR>
+|Nuvoton|https://www.nuvoton.com/|EC, AI
 |NXP|https://www.nxp.com/|
 |OCP|https://www.opencompute.org/|Open Compute Project<br>Datacenter, 5G, Telco, DC-MHS<br>
 |OpenBIOS|https://www.openbios.info/|
@@ -59,15 +64,28 @@ List of Organizations, Company, Govermant sites which are firmware and OS relate
 |VESA|https://vesa.org/|VESA spec
 
 
+## Firmware AI
+
+|Sites|URL|Notes|
+|:-----------------|:-------------------|:-----------------|
+|LiteRT/Tensorflow Lite|https://ai.google.dev/edge/litert||
+|tinyML|https://www.tinyml.org/|Tiny ML for MCUs|
+|Pytorch|https://pytorch.org/executorch-overview|ExecuTorch|
+|Rasberry Pi AI|https://www.raspberrypi.org/courses/ai-and-machine-learning||
+|Microchip AI|https://www.microchip.com/en-us/solutions/technologies/machine-learning|||
+|Nuvoton AI|https://www.nuvoton.com/ai/|||
+
 ## Firmware and OS Architecture
 
 Firmware and OS architecture sites
 
 |Firmware/OS Architecture|URL|Notes|
 |:-----------------|:-------------------|:-----------------|
-|ARM Trusted Firmware TF-A|https://developer.arm.com/tools-and-software/open-source-software/firmware/trusted-firmware/trusted-firmware-a|
-|ARM Trusted Firmware TF-M|https://developer.arm.com/tools-and-software/open-source-software/firmware/trusted-firmware/trusted-firmware-m|
+|ACRN Hypervisor|https://projectacrn.org/|ACRN Hypervisor
+|ARM Trusted Firmware|https://www.trustedfirmware.org/|TF-A, TF-M, OP-TEE, TF-RMM, Hafnium
+|Caliptra|https://github.com/chipsalliance/Caliptra|RoT
 |CoreBoot|http://www.coreboot.org|
+|Global Platform|https://globalplatform.org/|TEE
 |Intel Slimboot|https://www.intel.com.tw/content/www/tw/zh/design/products-and-solutions/technologies/slim-bootloader/overview.html|
 |Linux Boot|https://www.linuxboot.org/|
 |OpenBIOS|https://www.openbios.info/|
@@ -82,6 +100,7 @@ Firmware and OS architecture sites
 |UEFI Firmware|http://www.uefi.org|
 |UWB Alliance|https://uwballiance.org/|
 |WiMedia Alliance|https://www.wimedia.org|
+|Zephyr|https://zephyrproject.org/|Zephyr RTOS
 
 
 ## Specifications
@@ -155,6 +174,7 @@ Firmware and OS architecture sites
 |BBS (Bios Boot Specification)|[v1.01 - 11 Jan 1996](https://www.scs.stanford.edu/nyu/04fa/lab/specsbbs101.pdf)||
 |EDD (Enhanced Disk Drive)|-[EDD v4.0](https://t13.org/system/files/Documents/2014/f14138r2-Draft%20Amendment%201%20for%20EDD-4_1.pdf)||
 |EDK2 Specifications|https://github.com/tianocore-docs/Docs|
+|FIDO Alliance|-[Specification List](https://fidoalliance.org/specifications-overview/)<br>-[User Authentication](https://fidoalliance.org/specifications/)<br>-[User Authentication Spec Download](https://fidoalliance.org/specifications/download/)<br>|
 |PMM (Post Memory Manager)|[v1.01](https://archive.org/details/specs-pmm101)||
 |PXE|[Tianocore Wiki](https://github.com/tianocore/tianocore.github.io/wiki/PXE)||
 |SMBIOS|-[SMBIOS Spec Info](https://www.dmtf.org/standards/smbios)<br>-[SMBIOS Specification List](https://www.dmtf.org/dsp/DSP0134)<br>-[SMBIOS v3.8.0 - 5 Aug 2024](https://www.dmtf.org/sites/default/files/standards/documents/DSP0134_3.8.0.pdf)<br>-[SMBIOS v3.7.1 - 24 May 2024](https://www.dmtf.org/sites/default/files/standards/documents/DSP0134_3.7.1.pdf)<br>-[SMBIOS v3.7.0 - 21 Jul 2023](https://www.dmtf.org/sites/default/files/standards/documents/DSP0134_3.7.0.pdf)<br>-[SMBIOS v3.6.0 - 20 Jun 2022](https://www.dmtf.org/sites/default/files/standards/documents/DSP0134_3.6.0.pdf)<br>-[SMBIOS v3.5.0 - 21/Sep/2021](https://www.dmtf.org/sites/default/files/standards/documents/DSP0134_3.5.0.pdf)<br>-[SMBIOS v3.4.0 - 17/Jul/2020](https://www.dmtf.org/sites/default/files/standards/documents/DSP0134_3.4.0.pdf)||
