@@ -1,10 +1,11 @@
 # FirmwareResources
 This document list all firmware related resources.
 
-# Firmware and OS Specifications/Standards Maintained by TonyLo
+# Firmware and OS Specifications/Standards/Shows/Events Maintained by TonyLo
 
 - [FirmwareResources](#firmwareresources)
-- [Firmware and OS Specifications/Standards Maintained by TonyLo](#firmware-and-os-specificationsstandards-maintained-by-tonylo)
+- [Firmware and OS Specifications/Standards/Shows/Events Maintained by TonyLo](#firmware-and-os-specificationsstandardsshowsevents-maintained-by-tonylo)
+  - [Shows/Events](#showsevents)
   - [Official Sites](#official-sites)
   - [Firmware AI](#firmware-ai)
   - [Firmware and OS Architecture](#firmware-and-os-architecture)
@@ -16,6 +17,19 @@ This document list all firmware related resources.
     - [File Format](#file-format)
   - [Tools](#tools)
   - [Compilers/ToolChains](#compilerstoolchains)
+## Shows/Events
+List of firmware related shows/events.
+
+|Name|Organizer|Location|Target Segment|Notes|
+|:-----|:-----|:-------|:-------|:------|
+|[CES](https://www.ces.tech/)|CTA|Las Vegas, US||Consumer Electronics Show<br>Jan 7-10, 2025<br>Jan 6-9, 2026|
+|[Computex](https://www.computextaipei.com.tw/)|[TAITRA](https://en.taitra.org.tw/)|Taipei,Taiwan||May 20-23, 2025<br>June 2-5, 2026|
+|[Embedded World](https://www.embedded-world.de/)||Nuremburg,Germany||Mar 10-12, 2026|
+|[MWC](https://www.mwcbarcelona.com/)|GSMA|Barcelona, Spain||Mobile World Congress<br>Mar 6-9, 2025<br>Mar 2-5, 2026|
+|[Apple (WWDC)](https://developer.apple.com/wwdc)|Apple|||Worldwide Developers Conference<br> June 9-13, 2025|
+|[Google I/O](https://io.google)|Google||||
+|[nVidia GTC](https://www.nvidia.com/gtc/)|nVidia|||May 21-22, 2025, Taipei<br>|
+|[OCP Global Summit/Regional Summit](https://www.opencompute.org/)|OCP|||Open Compute Project<br>OCP APAC Summit Aug 5-6,2025, Taipei<br>OCP Global Summit Oct 13-16,2025, SanJose|
 
 ## Official Sites
 
@@ -59,6 +73,7 @@ List of Organizations, Company, Govermant sites which are firmware and OS relate
 |Open RAN Policy Coalition||
 |O-RAN Alliance|https://www.o-ran.org/|
 |PCI-SIG|https://pcisig.com/|PCI<BR>PCI Express<BR>
+|RISC-V|https://riscv.org/|RISC_V architecture
 |SATA-IO|https://sata-io.org/|Serial ATA
 |SD Association |https://www.sdcard.org|SDCard<BR>MicroSD<BR>SD Express<BR>SDIO<BR>iSDIO
 |SOAFFE|https://www.soafee.io/|
@@ -98,6 +113,7 @@ Firmware and OS architecture sites
 |OpenBMC|https://www.openbmc.org/|
 |Open System Firmware|https://www.opencompute.org/projects/open-system-firmware|
 |Project Mu|https://microsoft.github.io/mu/||Microsoft Open Source Firmware|
+|RISC-V|https://riscv.org/||RISC_V architecture|
 |SeaBIOS|https://www.seabios.org|Inactive|Legacy BIOS
 |SeaVGABios|https://seabios.org/SeaVGABIOS|Inactive|Open Source VGA BIOS
 |u-bmc|https://github.com/u-root/u-bmc|
@@ -219,8 +235,8 @@ Firmware and OS architecture sites
 |Tool|Version|OS|Notes|
 |:-----------------|:-------------------|:-----------------|:-----------------|
 |[ PLe](https://github.com/vangoghynot/UefiResources/tree/master/Tools)|0.9.1|UEFI|PLe Provides:<br>**1.	PCI/PCI Express<br>** **2.	System memory<br>** **3.	ACPI<br>** **4.	SMBIOS**|
-|[ PL](https://github.com/vangoghynot/UefiResources/tree/master/Tools)|1.5.0.10|DOS|PL Provides:<br>**1.	PCI Bus/Device Information(PCI register read/write)<br>** **2.	USB host controller information<br>** **3.	System memory read/write<br>** **4.	I/O address read/write<br>** **5.	Index IO read/write<br>** **6.	HD-Audio Controller Information (Include immediate VERB command, save codec cmd sequence as c file)<br>** **7.	AC97 Controller<br>** **8.	ACPI Table<br>** **9.	Disk read/write<br>** **10.	Int15h E820 maps advanced browsing<br>** **11.	Multi Processor(MP) Table dump.<br>** **12. Advanced Browsing experience. <br>** &nbsp;&nbsp;&nbsp; - Goto alternative view (Alt+G) Example: PCI<>IO or Memory, ACPI<>Memory<br>&nbsp;&nbsp;&nbsp; - Go back previous view(Alt+B)<br> **13. Save View data to file (Save as TXT, HTML, Binary)<br>** (https://github.com/vangoghynot/UefiResources)|
-|[ PLC](https://github.com/vangoghynot/UefiResources/tree/master/Tools)|1.0.1.4|Windows|**1. UEFI/BIOS Smart Debug Information<br>**  - Error/Checkpoint/Guid Message clarification and color highlight<br> - User defined message filter and color highight (Support two uder defined sets)<br> - Quick message search and locate debug message<br> - Save debug message on the fly (save to file)<br> - Load debug message and analysis<br>**2. Addon Debug Message Functions<br>** - Calculate the timeing between two marked debug messages, can be used to measure and tune the BIOS POST time.<br> (Click the 'Time' button on tool bar to open the 'Time' Windows, then use 'SPACE' key to mark the message.<br> - GUID and Meaniningful name translation <br> * Lookup the BIOS source code at startup. Once the GUID is displayed in the dbeug message, convert the GUID to the driver/protocol name of the GUID.<br>* (Need to set the 'GUID File Path' in the "Config" window to point to the UEFI/BIOS source code)<br>* (Click the 'Decode Messages' button in the tool bar to enable/disable the trsnslation.<br>**3. USB<br>**  - USB topology map<br> - Save the USB topology map to TXT or ASL file<br>* - Compare the USB topology map. Can be utilize to check if any USB device loss cross system boots. (support command line mode)<br> - ACPI ASL _UPC and _PLD generation for USB devices.<br>**4. Disk<br>**  - Need to launch the application in Administrator right.<br> - View GPT/MBR information<br> - Check disk boot capability.<br>**5. Console Redirection<br>**  - Click 'Terminal' button in the tool bar to open the console window.<br> - Support ANSI/VT100 (Similar to Putty/Teraterm)<br> - Capture screen to file.<br>**6. SUT Control (Control M/B)<br>**  - Need specific hardware<br> - Support Web http/https request or windows exe/bat to control the M/B - Support 'Level' or Pulse control<br> - Capable to control the M/B AC power or Power Button<br>**7. UEFI Variable READ<br>**  - Need Administrator Right<br> - Read UEFI Variable in Windows <br>(https://github.com/vangoghynot/UefiResources)|
+|[ PL](https://github.com/vangoghynot/UefiResources/tree/master/Tools)|1.5.0.10|DOS|PL Provides:<br>**1.	PCI Bus/Device Information(PCI register read/write)<br>** **2.	USB host controller information<br>** **3.	System memory read/write<br>** **4.	I/O address read/write<br>** **5.	Index IO read/write<br>** **6.	HD-Audio Controller Information (Include immediate VERB command, save codec cmd sequence as c file)<br>** **7.	AC97 Controller<br>** **8.	ACPI Table<br>** **9.	Disk read/write<br>** **10.	Int15h E820 maps advanced browsing<br>** **11.	Multi Processor(MP) Table dump.<br>** **12. Advanced Browsing experience. <br>** &nbsp;&nbsp;&nbsp; - Goto alternative view (Alt+G) Example: PCI<>IO or Memory, ACPI<>Memory<br>&nbsp;&nbsp;&nbsp; - Go back previous view(Alt+B)<br> **13. Save View data to file (Save as TXT, HTML, Binary)<br>** (https://github.com/vangoghynot/UefiResources/tree/master/Tools)|
+|[ PLC](https://github.com/vangoghynot/UefiResources/tree/master/Tools/)|1.0.1.4|Windows|**1. UEFI/BIOS Smart Debug Information<br>**  - Error/Checkpoint/Guid Message clarification and color highlight<br> - User defined message filter and color highight (Support two uder defined sets)<br> - Quick message search and locate debug message<br> - Save debug message on the fly (save to file)<br> - Load debug message and analysis<br>**2. Addon Debug Message Functions<br>** - Calculate the timeing between two marked debug messages, can be used to measure and tune the BIOS POST time.<br> (Click the 'Time' button on tool bar to open the 'Time' Windows, then use 'SPACE' key to mark the message.<br> - GUID and Meaniningful name translation <br> * Lookup the BIOS source code at startup. Once the GUID is displayed in the dbeug message, convert the GUID to the driver/protocol name of the GUID.<br>* (Need to set the 'GUID File Path' in the "Config" window to point to the UEFI/BIOS source code)<br>* (Click the 'Decode Messages' button in the tool bar to enable/disable the trsnslation.<br>**3. USB<br>**  - USB topology map<br> - Save the USB topology map to TXT or ASL file<br>* - Compare the USB topology map. Can be utilize to check if any USB device loss cross system boots. (support command line mode)<br> - ACPI ASL _UPC and _PLD generation for USB devices.<br>**4. Disk<br>**  - Need to launch the application in Administrator right.<br> - View GPT/MBR information<br> - Check disk boot capability.<br>**5. Console Redirection<br>**  - Click 'Terminal' button in the tool bar to open the console window.<br> - Support ANSI/VT100 (Similar to Putty/Teraterm)<br> - Capture screen to file.<br>**6. SUT Control (Control M/B)<br>**  - Need specific hardware<br> - Support Web http/https request or windows exe/bat to control the M/B - Support 'Level' or Pulse control<br> - Capable to control the M/B AC power or Power Button<br>**7. UEFI Variable READ<br>**  - Need Administrator Right<br> - Read UEFI Variable in Windows <br>(https://github.com/vangoghynot/UefiResources/tree/master/Tools)|
 |IPMI Tools|-[Information](https://www.intel.com.tw/content/www/tw/zh/servers/ipmi/ipmi-technical-resources.html?wapkw=ipmi)-[IPMI, V2.0, Conformance Test Suite (ICTS) Prototype, V6.02](https://www.intel.com.tw/content/dam/www/public/us/en/documents/product-briefs/icts_v602.zip)<br>-[IPMI, V2.0, V1.5, and V1.0, Reference Drivers](https://www.intel.com.tw/content/dam/www/public/us/en/documents/product-briefs/drvjan13_2005.zip)<br>-[IPMI, V2.0, Command Test Tool](https://www.intel.com.tw/content/dam/www/public/us/en/documents/product-briefs/ipmitool_01-13-05.zip)|
 |Redfish Tools (DMTF Github)|[Redfish Test Framework](https://github.com/DMTF/Redfish-Test-Framework)|
 
