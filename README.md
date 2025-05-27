@@ -80,6 +80,7 @@ List of Organizations, Company, Govermant sites which are firmware and OS relate
 |Trusted Computing Group|https://trustedcomputinggroup.org/|TPM
 |u-bmc|https://u-bmc.readthedocs.io/|
 |U-Boot|https://www.denx.de/wiki/U-Boot|
+|UALink Consortium|https://ualinkconsortium.org/|AI Accelerators interconnect bus
 |UEFI|https://www.uefi.org|UEFI<BR>UEFI PI<BR>UEFI SCT<BR>ACPI
 |USB|https://www.usb.org|USB Specification<BR>USB Device Classes<BR>USB PD
 |VESA|https://vesa.org/|VESA spec
@@ -139,7 +140,7 @@ Firmware and OS architecture sites
 |ATA/ATAPI Specification|-[ACS-4 Rev.14](http://www.t13.org/Documents/UploadedDocuments/docs2016/di529r14-ATAATAPI_Command_Set_-_4.pdf)<br>-[ATA8 ACS](http://www.t13.org/documents/UploadedDocuments/docs2007/D1699r4a-ATA8-ACS.pdf)<br>[ATA8 ACS2](http://www.t13.org/Documents/UploadedDocuments/docs2009/d2015r2-ATAATAPI_Command_set_-_2_ACS-2.pdf)<br>-[ATAPI for CDROM 8020i rev2.6](http://www.bswd.com/sff8020i.pdf)<br>-ATA for Removable 8070i|
 |Bluetooth|-[Bluetooth Specifications List](https://www.bluetooth.com/specifications)<br>-[Core Specification 6.1](https://www.bluetooth.com/specifications/specs/core-specification-6-1/)<br>-[Core Specification 6.0](https://www.bluetooth.com/specifications/specs/core-specification-6-0/)<br>-[Core Specification 5.4](https://www.bluetooth.com/specifications/specs/core-specification-5-4/)<br>-[Core Specification 5.3](https://www.bluetooth.com/specifications/specs/core-specification-5-3/)<br>-[Core Specification 5.2](https://www.bluetooth.org/docman/handlers/downloaddoc.ashx?doc_id=478726)<br>-[CSS 9](https://www.bluetooth.org/docman/handlers/DownloadDoc.ashx?doc_id=480305)<br>|
 |CAN Bus/CAN XL/CAN-FD|-[CAN-FD Information](https://www.bosch-semiconductors.com/media/ip_modules/pdf_2/papers/icc14_2013_paper_mutter_1.pdf)<br>-[CAN XL](https://www.bosch-semiconductors.com/products/ip-modules/can-ip-modules/xl-can/)<br>-[CAN v2.0](http://esd.cs.ucr.edu/webres/can20.pdf)<br>-[CAN-FD v1.0](https://can-newsletter.org/assets/files/ttmedia/raw/e5740b7b5781b8960f55efcc2b93edf8.pdf)|
-|CXL|https://www.computeexpresslink.org/|Compute Express Link
+|CXL|https://www.computeexpresslink.org/||Compute Express Link
 |eMMC Specification|[v5.1a](https://www.jedec.org/standards-documents/technology-focus-areas/flash-memory-ssds-ufs-emmc/e-mmc)|
 |HDAudio Specification|[v1.0a](https://www.intel.com/content/dam/www/public/us/en/documents/product-specifications/high-definition-audio-specification.pdf)|
 |HDMI Specification|-[v2.2](https://hdmiforum.org/wp-content/uploads/2025/01/CES-2025-HDMI-Forum-New-Spec-Release-20250106-EN.pdf?x70541&x34563)<br>-[v2.1b](https://www.hdmi.org/spec/hdmi2_1)|
@@ -148,6 +149,7 @@ Firmware and OS architecture sites
 |I3C Specification]|-[MIPI I3C Basic v1.0](https://resources.mipi.org/mipi-i3c-v1-download)<br>-[MIPI I3C v1.1](https://www.mipi.org/specifications/i3c-sensor-specification)<br>-[NXP I3C Training Video](https://www.nxp.com/design/training/improved-inter-integrated-circuit-i3c-standard:TIP-I3C-STANDARD)|
 |LPC Specification|[v1.1](https://www.intel.com/content/dam/www/program/design/us/en/documents/low-pin-count-interface-specification.pdf)|
 |MIPI Specification|[click](https://www.mipi.org/current-specifications)|
+|NVLink|[Click](https://en.wikipedia.org/wiki/NVLink)||nVidia<br>NVLink Fusion|
 |NVM Express(NVMe)|-[All Specifications](https://nvmexpress.org/developers/nvme-specification/)<br>-[NVMe Boot Specification v1.2 (Mar.11, 2025)](https://nvmexpress.org/wp-content/uploads/NVM-Express-Boot-Specification-Revision-1.2-2025.03.11-Ratified.pdf)<br>-[NVMe Command Set Specifications](https://nvmexpress.org/developers/nvme-command-set-specifications/)<br>-[NVMe Transport Specificaions](https://nvmexpress.org/developers/nvme-transport-specifications/)<br>-[NVMe-MI Specifications](https://nvmexpress.org/developers/nvme-mi-specification/)<br>-[NVM Express Base Specification v2.2 (Mar.11, 2025)](https://nvmexpress.org/wp-content/uploads/NVM-Express-Base-Specification-Revision-2.2-2025.03.11-Ratified.pdf)<br>-[NVM Express Base Specification 2.0a](https://nvmexpress.org/wp-content/uploads/NVMe-NVM-Express-2.0a-2021.07.26-Ratified.pdf)<br>-[NVMe Management Interface v1.1a](https://nvmexpress.org/developers/nvme-mi-specification/)|
 |PCI/PCIExpress|-[Specification List](https://pcisig.com/specifications)<br>-PCI Express Base Specification Revision 7.0<br>-PCI Express Base Specification Revision 6.3<br>-[PCI Express Base Specification Revision 6.2](https://members.pcisig.com/wg/PCI-SIG/document/20590)<br>-[PCI Express M.2 Specification  Revision 5.1](https://members.pcisig.com/wg/PCI-SIG/document/20926?uploaded=1)<br>-[PCI Express U.2 Specification Revision 5.0](https://members.pcisig.com/wg/PCI-SIG/document/20654?uploaded=1)<br>-PCI Firmware Specification Revision 3.3<br>-[PCI Code and ID Assignment Revision 1.18](https://members.pcisig.com/wg/PCI-SIG/document/22141)|
 |SCSI Specification|[click](https://www.t10.org/scsi-3.htm)|
@@ -157,6 +159,7 @@ Firmware and OS architecture sites
 |SPI Bus Specification|[click](https://ww1.microchip.com/downloads/en/devicedoc/spi.pdf)|
 |Thunderbolt|[click](https://www.intel.com/content/www/us/en/architecture-and-technology/thunderbolt/overview.html)|
 |eSPI Bus Specification|[v1.6](https://www.intel.com/content/dam/support/us/en/documents/software/chipset-software/327432-004_espi_base_specification_rev1.0_cb.pdf)|
+|UALink|-[Specification List](https://ualinkconsortium.org/specification/)<br>-[UALink_200 Rev 1.0]()||UALink Consortium|
 |UFS Specification|[click](https://www.jedec.org/standards-documents/focus/flash/universal-flash-storage-ufs)|
 |USB Bus Specifications|-[USB Specifications List](https://www.usb.org/documents)<br>-[USB4 Bus Specifications v2.0](https://www.usb.org/sites/default/files/USB4%20Specification%20Sep%202024_1.zip)<br>-[USB Bus Specifications v4.x](https://usb.org/sites/default/files/USB4%20Specification_5.zip)<br>-[USB Bus Specifications v3.2](https://www.usb.org/sites/default/files/usb_32_20210125.zip)<br>-[USB Bus Specifications v2.0](https://www.usb.org/sites/default/files/usb_20_20210701.zip)<br>-[eUSB v2.0](https://www.usb.org/sites/default/files/eUSB2_0_20240927.zip)|
 |USB Device Class Specifications|[click](http://www.usb.org/developers/docs/devclass_docs/)|
