@@ -7,6 +7,8 @@ This document list all firmware related resources.
 - [Firmware and OS Specifications/Standards/Shows/Events Maintained by TonyLo](#firmware-and-os-specificationsstandardsshowsevents-maintained-by-tonylo)
   - [Shows/Events](#showsevents)
   - [Official Sites](#official-sites)
+  - [AI Model](#ai-model)
+  - [AI Company](#ai-company)
   - [Firmware AI](#firmware-ai)
   - [Firmware and OS Architecture](#firmware-and-os-architecture)
   - [Specifications](#specifications)
@@ -48,14 +50,14 @@ List of Organizations, Company, Govermant sites which are firmware and OS relate
 |DMTF|https://www.dmtf.org|-[CADF](https://www.dmtf.org/standards/cadf)<br>-[CDM](https://www.dmtf.org/standards/cdm)<br>-[CLOUD](https://www.dmtf.org/standards/cloud)<br>-[CIM](https://www.dmtf.org/standards/cim)<br>-[CMDBf](https://www.dmtf.org/standards/cmdbf)<br>-[DASH](https://www.dmtf.org/standards/dash)<br>-[NETMAN](https://www.dmtf.org/standards/netman)<br>-[OVF](https://www.dmtf.org/standards/ovf)<br>-[PMCI](https://www.dmtf.org/standards/pmci)<br>-[REDFISH](https://www.dmtf.org/standards/redfish)<br>-[SMASH](https://www.dmtf.org/standards/smash)<br>-[SMBIOS](https://www.dmtf.org/standards/smbios)<br>-[VMAN](https://www.dmtf.org/standards/vman)<br>-[WBEM](https://www.dmtf.org/standards/wbem)<br>-[WS-MAN](https://www.dmtf.org/standards/ws-man)
 |FIDO Alliance|https://fidoalliance.org/|User Authentication
 |FiRa|https://www.firaconsortium.org/|FiRa Consortium, UWB promoter group
-|IETF - Internet Exchange Task Force|https://www.ietf.org/|[WG list](https://datatracker.ietf.org/wg/)
 |GNU|https://www.gnu.org/|GNU OS, Software, Tools, Compilers
 |HDMI|https://www.hdmi.org|HDMI<BR>
+|IETF - Internet Exchange Task Force|https://www.ietf.org/|[WG list](https://datatracker.ietf.org/wg/)
 |INCITS T10|https://www.t10.org|SCSI<BR>SAS
 |INCITS T13|https://www.t13.org|ATA/ATAPI<BR>
 |Intel|https://www.intel.com|Intel Processor/Chipsets<BR>XHCI<BR>eSPI<BR>AC97
 |ITE|https://www.ite.com.tw/en|EC, SensorHub
-|JEDEC|https://www.jedec.org|Microelectronics Standard<BR>eMMC<BR>UFS
+|JEDEC|https://www.jedec.org|Microelectronics Standard<br>Memory: DDR, SDRAM, HBM, LPDDR<br>Flash: UFS, eMMC, SSD, XFMD<br>
 |Linaro|https://www.linaro.org/|ARM and open source projects
 |MCC|https://www.mcc-us.com/|I2C Bus Analyzer
 |Microchip|https://www.microchip.com/|EC, AI
@@ -84,6 +86,41 @@ List of Organizations, Company, Govermant sites which are firmware and OS relate
 |UEFI|https://www.uefi.org|UEFI<BR>UEFI PI<BR>UEFI SCT<BR>ACPI
 |USB|https://www.usb.org|USB Specification<BR>USB Device Classes<BR>USB PD
 |VESA|https://vesa.org/|VESA spec
+
+
+## AI Model
+
+|Sites|Model|URL|Notes|
+|:-----------|:------|:-----------|:-------------|
+|Alibaba|Qwen 2.5 max|||
+|Anthropic|Claude|||
+|Deepseek|R1|||
+|Google|Gemini|||
+|Grok|xAI|||
+|IBM|Granite|||
+|Meta|Llama|||
+|Open AI|GPT|||
+
+## AI Company
+
+|Sites|Service|URL|Notes|
+|:-----------|:------|:-----------|:-------------|
+|Alibaba||||
+|Amazon||||
+|Anthropic||||
+|Apple||||
+|Cohere||||
+|Deepseek||||
+|Google||||
+|Grok||||
+|Hugging Face|[AI Models:]<br> https://huggingface.co/|||
+|IBM||||
+|Microsoft||||
+|Meta||||
+|nVidia||||
+|Ollama|[AI Model Tool:]<br> https://ollama.com/|||
+|Open AI||||
+|Tata Elxsi||||
 
 
 ## Firmware AI
@@ -193,7 +230,7 @@ Firmware and OS architecture sites
 
 |Specification|URL|Status|Notes|
 |:-----------------|:-------------------|:-----------------|:-----------------|
-|ACPI|-[ACPI Specification List](https://uefi.org/specifications)<br>-[v6.5a PDF](https://uefi.org/sites/default/files/resources/ACPI_Spec_6.5a_Final.pdf)<br>-[(v6.5 PDF)](https://uefi.org/sites/default/files/resources/ACPI_Spec_6_5_Aug29.pdf)-[(v6.5 HTML)](https://uefi.org/specifications/ACPI/6.5/)<br>-[(v6.4 Errata A PDF)](https://uefi.org/sites/default/files/resources/ACPI_Spec_6_4_A_final_Aug29.pdf)-[(v6.4 Errata A HTML)](https://uefi.org/specifications/ACPI/6.4_A/)<br>-[v6.4 PDF - January 2021](https://uefi.org/sites/default/files/resources/ACPI_Spec_6_4_Jan22.pdf)<br>||acpi specifications, acpi tables|
+|ACPI|-[ACPI Specification List](https://uefi.org/specifications)<br>-[v6.6 PDF](https://uefi.org/sites/default/files/resources/ACPI_Spec_6.6.pdf)<br>-[v6.5a PDF](https://uefi.org/sites/default/files/resources/ACPI_Spec_6.5a_Final.pdf)<br>-[(v6.5 PDF)](https://uefi.org/sites/default/files/resources/ACPI_Spec_6_5_Aug29.pdf)-[(v6.5 HTML)](https://uefi.org/specifications/ACPI/6.5/)<br>-[(v6.4 Errata A PDF)](https://uefi.org/sites/default/files/resources/ACPI_Spec_6_4_A_final_Aug29.pdf)-[(v6.4 Errata A HTML)](https://uefi.org/specifications/ACPI/6.4_A/)<br>-[v6.4 PDF - January 2021](https://uefi.org/sites/default/files/resources/ACPI_Spec_6_4_Jan22.pdf)<br>||acpi specifications, acpi tables|
 |APM (Advanced Power Management)|[v1.2 - Feb 1996](https://download.microsoft.com/download/1/6/1/161ba512-40e2-4cc9-843a-923143f3456c/apmv12.rtf)||
 |ASF (Alert Standard Format)(DMTF)|-[ASF v2.0 - 23/Apr/2003](https://www.dmtf.org/sites/default/files/standards/documents/DSP0136.pdf)||
 |BBS (Bios Boot Specification)|[v1.01 - 11 Jan 1996](https://www.scs.stanford.edu/nyu/04fa/lab/specsbbs101.pdf)||
@@ -202,7 +239,7 @@ Firmware and OS architecture sites
 |FIDO Alliance|-[Specification List](https://fidoalliance.org/specifications-overview/)<br>-[User Authentication](https://fidoalliance.org/specifications/)<br>-[User Authentication Spec Download](https://fidoalliance.org/specifications/download/)<br>|
 |PMM (Post Memory Manager)|[v1.01](https://archive.org/details/specs-pmm101)||
 |PXE|[Tianocore Wiki](https://github.com/tianocore/tianocore.github.io/wiki/PXE)||
-|SMBIOS|-[SMBIOS Spec Info](https://www.dmtf.org/standards/smbios)<br>-[SMBIOS Specification List](https://www.dmtf.org/dsp/DSP0134)<br>-[SMBIOS v3.8.0 - 5 Aug 2024](https://www.dmtf.org/sites/default/files/standards/documents/DSP0134_3.8.0.pdf)<br>-[SMBIOS v3.7.1 - 24 May 2024](https://www.dmtf.org/sites/default/files/standards/documents/DSP0134_3.7.1.pdf)<br>-[SMBIOS v3.7.0 - 21 Jul 2023](https://www.dmtf.org/sites/default/files/standards/documents/DSP0134_3.7.0.pdf)<br>-[SMBIOS v3.6.0 - 20 Jun 2022](https://www.dmtf.org/sites/default/files/standards/documents/DSP0134_3.6.0.pdf)<br>-[SMBIOS v3.5.0 - 21/Sep/2021](https://www.dmtf.org/sites/default/files/standards/documents/DSP0134_3.5.0.pdf)<br>-[SMBIOS v3.4.0 - 17/Jul/2020](https://www.dmtf.org/sites/default/files/standards/documents/DSP0134_3.4.0.pdf)||
+|SMBIOS|-[SMBIOS Spec Info](https://www.dmtf.org/standards/smbios)<br>-[SMBIOS Specification List](https://www.dmtf.org/dsp/DSP0134)<br>-[SMBIOS v3.9.0 - 19 Aug 2025](https://www.dmtf.org/sites/default/files/standards/documents/DSP0134_3.9.0.pdf)<br>-[SMBIOS v3.8.0 - 5 Aug 2024](https://www.dmtf.org/sites/default/files/standards/documents/DSP0134_3.8.0.pdf)<br>-[SMBIOS v3.7.1 - 24 May 2024](https://www.dmtf.org/sites/default/files/standards/documents/DSP0134_3.7.1.pdf)<br>-[SMBIOS v3.7.0 - 21 Jul 2023](https://www.dmtf.org/sites/default/files/standards/documents/DSP0134_3.7.0.pdf)<br>-[SMBIOS v3.6.0 - 20 Jun 2022](https://www.dmtf.org/sites/default/files/standards/documents/DSP0134_3.6.0.pdf)<br>-[SMBIOS v3.5.0 - 21/Sep/2021](https://www.dmtf.org/sites/default/files/standards/documents/DSP0134_3.5.0.pdf)<br>-[SMBIOS v3.4.0 - 17/Jul/2020](https://www.dmtf.org/sites/default/files/standards/documents/DSP0134_3.4.0.pdf)|Supported architecture<br>- IA-32 (x86)<br> - x64 (x86-64, Intel64, AMD64, EM64T)<br> - Intel® Itanium® architecture<br> -  32-bit ARM (Aarch32)<br> - 64-bit ARM (Aarch64)<br> - RISC-V 32 (RV32)<br> - RISC-V 64 (RV64)<br> - RISC-V 128 (RV128)<br> - 32-bit LoongArch (LoongArch32)<br> - 64-bit LoongArch (LoongArch64)|
 |TCG|[Specification List](https://trustedcomputinggroup.org/resources/?)||Trusted Computing Group|
 |UEFI|UEFI Specification<br>-[UEFI Specification List](https://uefi.org/specifications)<br>-[UEFI Specification v2.11](https://uefi.org/sites/default/files/resources/UEFI_Spec_Final_2.11.pdf)<br>-[UEFI Specification v2.10 Errata A - PDF](https://uefi.org/sites/default/files/resources/UEFI_Spec_2_10_A_Aug8.pdf)-[HTML](https://uefi.org/specs/UEFI/2.10_A/)<br>-[UEFI Specification v2.10 - PDF](https://uefi.org/sites/default/files/resources/UEFI_Spec_2_10_Aug29.pdf)-[HTML](https://uefi.org/specs/UEFI/2.10/)<br>-[UEFI Specification v2.9 Errata A - PDF](https://uefi.org/sites/default/files/resources/UEFI_Spec_2_9_A_final_Aug29.pdf)-[HTML](https://uefi.org/specs/UEFI/2.9_A/)<br>-[UEFI Specification v2.9](https://uefi.org/sites/default/files/resources/UEFI_Spec_2_9_2021_03_18.pdf)<br><br>UEFI Shell Specification<br>-[UEFI Shell Specification v2.2](http://www.uefi.org/sites/default/files/resources/UEFI_Shell_2_2.pdf)<br><br>PI Specification<br>-[UEFI PI v1.9](https://uefi.org/sites/default/files/resources/UEFI_PI_Spec_Final_Draft_1.9.pdf)<br>-[UEFI PI v1.8 Errata A](https://uefi.org/sites/default/files/resources/PI_Spec_1_8_A_final_2024.03.05.pdf)<br>-[UEFI PI v1.8](https://uefi.org/sites/default/files/resources/UEFI_PI_Spec_1_8_March3.pdf)<br>-[UEFI PI v1.7 Errata B](https://uefi.org/sites/default/files/resources/UEFI_Platform%20Initialization%20Spec%20Version%201.7%20errata%20B_May%202023.pdf)<br>-[UEFI PI v1.7 Errata A](https://uefi.org/sites/default/files/resources/PI_Spec_1_7_A_final_May1.pdf)<br>||uefi spec, PI spec, UEFI shell, UEFI SCT|
 
