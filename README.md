@@ -28,10 +28,10 @@ List of firmware related shows/events.
 |[Computex](https://www.computextaipei.com.tw/)|[TAITRA](https://en.taitra.org.tw/)|Taipei,Taiwan||May 20-23, 2025<br>June 2-5, 2026|
 |[Embedded World](https://www.embedded-world.de/)||Nuremburg,Germany||Mar 10-12, 2026|
 |[MWC](https://www.mwcbarcelona.com/)|GSMA|Barcelona, Spain||Mobile World Congress<br>Mar 6-9, 2025<br>Mar 2-5, 2026|
-|[Apple (WWDC)](https://developer.apple.com/wwdc)|Apple|||Worldwide Developers Conference<br> June 9-13, 2025|
-|[Google I/O](https://io.google)|Google||||
+|[Apple (WWDC)](https://developer.apple.com/wwdc)|Apple|||Worldwide Developers Conference<br> June, 2026|
+|[Google I/O](https://io.google)|Google|San Jose|[May. 19-20, 2026](https://io.google/2026/)||
 |[nVidia GTC](https://www.nvidia.com/gtc/)|nVidia|||May 21-22, 2025, Taipei<br>Mar 16-19, 2026, San Jose|
-|[OCP Global Summit/Regional Summit](https://www.opencompute.org/)|OCP|||Open Compute Project<br>OCP APAC Summit Aug 5-6,2025, Taipei<br>OCP Global Summit Oct 13-16,2025, SanJose|
+|[OCP Global Summit/Regional Summit](https://www.opencompute.org/)|OCP|||-[Open Compute Project<br>OCP APAC Summit Aug. 5-6,2025, Taipei](https://www.opencompute.org/events/past-events/2025-ocp-apac-summit)<br>-[OCP Global Summit Oct. 13-16,2025, SanJose](https://www.opencompute.org/events/past-events/2025-ocp-global-summit)<br>-[OCP APAC Summit Aug.11-12,2026, Taipei](https://www.opencompute.org/summit/2026-ocp-apac-summit)<br>-[OCP Global Summit Oct.12-15,2026, SanJose](https://www.opencompute.org/summit/global-summit)|
 
 ## Official Sites
 
@@ -154,10 +154,11 @@ Firmware and OS architecture sites
 |RISC-V|https://riscv.org/||RISC_V architecture|
 |SeaBIOS|https://www.seabios.org|Inactive|Legacy BIOS
 |SeaVGABios|https://seabios.org/SeaVGABIOS|Inactive|Open Source VGA BIOS
+|ubios|https://en.gccorg.com/|
 |u-bmc|https://github.com/u-root/u-bmc|
 |U-Boot|https://www.denx.de/wiki/U-Boot|
-|USF|https://www.intel.com/content/www/us/en/developer/articles/technical/universal-scalable-firmware.html/||Universal Scalable Firmware|
 |UEFI Firmware|http://www.uefi.org|
+|USF|https://www.intel.com/content/www/us/en/developer/articles/technical/universal-scalable-firmware.html/||Universal Scalable Firmware|
 |UWB Alliance|https://uwballiance.org/|
 |WiMedia Alliance|https://www.wimedia.org|
 |Zephyr|https://zephyrproject.org/||Zephyr RTOS
@@ -181,7 +182,7 @@ Firmware and OS architecture sites
 |eMMC Specification|[v5.1a](https://www.jedec.org/standards-documents/technology-focus-areas/flash-memory-ssds-ufs-emmc/e-mmc)|
 |HDAudio Specification|[v1.0a](https://www.intel.com/content/dam/www/public/us/en/documents/product-specifications/high-definition-audio-specification.pdf)|
 |HDMI Specification|-[v2.2 Technology Overview](https://www.hdmi.org/spec/hdmi2_1)<br>-[v2.2 Press Release](https://hdmiforum.org/wp-content/uploads/2025/01/CES-2025-HDMI-Forum-New-Spec-Release-20250106-EN.pdf?x70541&x34563)|
-|I2C Bus Specification|[v6.0](https://www.nxp.com/docs/en/user-guide/UM10204.pdf)|
+|I2C Bus Specification|[v7.0](https://www.nxp.com/docs/en/user-guide/UM10204.pdf)|
 |I2S Specification|[June 5, 1996](https://www.sparkfun.com/datasheets/BreakoutBoards/I2SBUS.pdf)|
 |I3C Specification]|-[MIPI I3C Basic v1.0](https://resources.mipi.org/mipi-i3c-v1-download)<br>-[MIPI I3C v1.1](https://www.mipi.org/specifications/i3c-sensor-specification)<br>-[NXP I3C Training Video](https://www.nxp.com/design/training/improved-inter-integrated-circuit-i3c-standard:TIP-I3C-STANDARD)|
 |LPC Specification|[v1.1](https://www.intel.com/content/dam/www/program/design/us/en/documents/low-pin-count-interface-specification.pdf)|
