@@ -92,35 +92,53 @@ List of Organizations, Company, Govermant sites which are firmware and OS relate
 
 |Sites|Model|URL|Notes|
 |:-----------|:------|:-----------|:-------------|
-|Alibaba|Qwen 2.5 max|||
-|Anthropic|Claude|||
-|Deepseek|R1|||
-|Google|Gemini|||
-|Grok|xAI|||
-|IBM|Granite|||
-|Meta|Llama|||
-|Open AI|GPT|||
+|01.AI|Yi|https://www.01.ai/|Yi-Lightning|
+|Alibaba|Qwen|https://qwenlm.github.io/|Qwen 2.5, Qwen-Max, QwQ|
+|Amazon|Nova|https://aws.amazon.com/ai/nova/|Nova Pro, Nova Lite, Nova Micro|
+|Anthropic|Claude|https://www.anthropic.com/|Claude Opus 4, Claude Sonnet 4|
+|Apple|Apple Intelligence|https://machinelearning.apple.com/|On-device AI models|
+|Baidu|Ernie|https://yiyan.baidu.com/|Ernie Bot, Ernie 4.0|
+|Cohere|Command|https://cohere.com/|Command R, Command R+, Command A|
+|Deepseek|Deepseek|https://www.deepseek.com/|R1, V3|
+|Google|Gemini|https://deepmind.google/technologies/gemini/|Gemini 2.0, Gemma|
+|IBM|Granite|https://www.ibm.com/granite|Granite 3.0|
+|Meta|Llama|https://llama.meta.com/|Llama 3, Llama 4|
+|Microsoft|Phi|https://azure.microsoft.com/en-us/products/phi/|Phi-4, Phi-3, MAI|
+|Mistral|Mistral|https://mistral.ai/|Mistral Large, Mixtral, Codestral|
+|nVidia|Nemotron|https://www.nvidia.com/en-us/ai/|Nemotron, Llama-3.1-Nemotron|
+|OpenAI|GPT|https://openai.com/|GPT-4o, o1, o3|
+|Samsung|Samsung Gauss|https://www.samsung.com/|On-device AI|
+|Stability AI|Stable Diffusion|https://stability.ai/|Image generation models|
+|xAI|Grok|https://x.ai/|Grok-2, Grok-3|
+|Zhipu AI|GLM|https://www.zhipuai.cn/|ChatGLM, GLM-4|
 
 ## AI Company
 
 |Sites|Service|URL|Notes|
 |:-----------|:------|:-----------|:-------------|
-|Alibaba||||
-|Amazon||||
-|Anthropic||||
-|Apple||||
-|Cohere||||
-|Deepseek||||
-|Google||||
-|Grok||||
-|Hugging Face|[AI Models:]<br> https://huggingface.co/|||
-|IBM||||
-|Microsoft||||
-|Meta||||
-|nVidia||||
-|Ollama|[AI Model Tool:]<br> https://ollama.com/|||
-|Open AI||||
-|Tata Elxsi||||
+|01.AI|01.AI|https://www.01.ai/|Yi models|
+|Alibaba|Alibaba Cloud AI|https://www.alibabacloud.com/en/solutions/ai|Qwen models, ModelScope|
+|Amazon|Amazon Bedrock|https://aws.amazon.com/bedrock/|AI model hosting, Nova models|
+|Anthropic|Claude AI|https://www.anthropic.com/|Claude models, API|
+|Apple|Apple Intelligence|https://www.apple.com/apple-intelligence/|On-device AI, Siri|
+|Baidu|Ernie Bot|https://yiyan.baidu.com/|Ernie models|
+|Cohere|Cohere AI|https://cohere.com/|Command R, enterprise NLP|
+|Deepseek|Deepseek|https://www.deepseek.com/|R1, V3 models|
+|Google|Google AI|https://ai.google/|Gemini, Gemma, Vertex AI|
+|Hugging Face|[AI Models:]<br> https://huggingface.co/|https://huggingface.co/|Open-source model hub|
+|IBM|IBM watsonx|https://www.ibm.com/watsonx|Granite models, enterprise AI|
+|Meta|Meta AI|https://ai.meta.com/|Llama models, PyTorch|
+|Microsoft|Azure AI / Copilot|https://azure.microsoft.com/en-us/solutions/ai/|Phi models, Azure OpenAI, Copilot|
+|Mistral|Mistral AI|https://mistral.ai/|Mistral, Mixtral, Codestral|
+|nVidia|nVidia AI|https://www.nvidia.com/en-us/ai/|NIM, Nemotron, AI infrastructure|
+|Ollama|[AI Model Tool:]<br> https://ollama.com/|https://ollama.com/|Local model runtime|
+|OpenAI|OpenAI|https://openai.com/|GPT-4o, o1, o3, ChatGPT, DALL-E|
+|Perplexity AI|Perplexity|https://www.perplexity.ai/|AI search engine|
+|Samsung|Samsung AI|https://www.samsung.com/|Samsung Gauss, on-device AI|
+|Stability AI|Stability AI|https://stability.ai/|Stable Diffusion, image generation|
+|Tata Elxsi|Tata Elxsi AI|https://www.tataelxsi.com/||
+|xAI|xAI|https://x.ai/|Grok models|
+|Zhipu AI|Zhipu AI|https://www.zhipuai.cn/|ChatGLM, GLM-4|
 
 
 ## Firmware AI
